@@ -1,0 +1,940 @@
+chart_id,chart_type,complexity,title,source_caption,image_filename,gpt4o_explanation,claude_explanation,gpt4o_c1,gpt4o_c2,gpt4o_c3,gpt4o_c4,gpt4o_c5,gpt4o_c6,gpt4o_c7,gpt4o_c8,gpt4o_c9,gpt4o_c10,gpt4o_total,claude_c1,claude_c2,claude_c3,claude_c4,claude_c5,claude_c6,claude_c7,claude_c8,claude_c9,claude_c10,claude_total,gpt4o_fe1,gpt4o_fe2,gpt4o_fe3a,gpt4o_fe3b,gpt4o_fe4,gpt4o_fe5,gpt4o_hm1,gpt4o_hm2,gpt4o_oe1,gpt4o_err_count,claude_fe1,claude_fe2,claude_fe3a,claude_fe3b,claude_fe4,claude_fe5,claude_hm1,claude_hm2,claude_oe1,claude_err_count
+1,bar,simple,Proportion of clinical trials registered between 2014 and 2023 assessing mAbs for noncommunicable vs communicable diseases,"A closer look at the therapeutic indications under investigation reveals a predominant focus on noncommunicable diseases, which accounted for 84% of all trials (Fig. 8). Of these, 54% targeted malignant neoplasms, particularly lymphomas and multiple myeloma (166 trials). Apart from cancers, mAbs are increasingly used for the treatment of disorders affecting the endocrine, blood and immune systems (60 trials). For example, mAbs that target specific immune checkpoint inhibitors have shown promise in treating autoimmune diseases by recalibrating the immune system response (21).",viz1.jpg,"1. Chart type:
+This is a horizontal bar chart comparing the proportion of clinical trials assessing monoclonal antibodies (mAbs) across different disease categories.
+2. Axes:
+X-axis: Number of clinical trials (approximately 0 to 1,800 trials)
+Y-axis: Disease categories, including noncommunicable diseases, communicable/maternal/perinatal/nutritional conditions, others, and injuries
+3. Main trend:
+The chart shows that the vast majority of mAb clinical trials between 2014 and 2023 focused on noncommunicable diseases.
+4. Key values:
+Highest value: Noncommunicable diseases with about 84% of trials (roughly 1,750 trials).
+Lowest value: Injuries with about 1% of trials (around 20–30 trials).
+5. Comparison:
+The most meaningful difference is between noncommunicable diseases (84%) and communicable-related conditions (11%), showing a gap of over 70 percentage points.
+6. Takeaway:
+This chart highlights a strong imbalance in research priorities for monoclonal antibody therapies. Most registered clinical trials from 2014–2023 targeted noncommunicable diseases such as cancer and chronic illnesses, accounting for approximately 84% of all studies. In contrast, communicable, maternal, perinatal, and nutritional conditions represented only 11%, while injuries and other conditions received very limited attention. The findings suggest that mAb research investment has been concentrated mainly on chronic diseases, with comparatively fewer trials addressing infectious diseases and broader global health challenges.","1. Chart Type: Horizontal bar chart comparing four disease categories.
+2. Axes: Y-axis: Disease category (four groups); X-axis: Number of clinical trials (0–1,800), with percentage labels showing each category's share of total trials.
+3. Main Trend: The overwhelming majority of monoclonal antibody (mAb) clinical trials focused on noncommunicable diseases, with communicable and other conditions receiving a fraction of research attention.
+4. Key Values: Highest — Noncommunicable diseases at 84% (~1,750 trials); Lowest — Injuries at just 1% (~20 trials).
+5. Comparison: Noncommunicable diseases (84%) received over seven times more mAb trial investment than communicable, maternal, perinatal and nutritional conditions combined (11%) — a striking research prioritisation gap.
+6. Takeaway: Between 2014 and 2023, mAb clinical research was heavily concentrated on noncommunicable diseases — conditions like cancer and autoimmune disorders — which captured 84% of all registered trials. Communicable diseases, including infections disproportionately affecting lower-income populations, received only 11% of trials despite representing a significant global disease burden. With injuries at 1% and ""other"" at 4%, this distribution reveals a profound research equity gap, suggesting that mAb innovation is primarily driven by commercially lucrative markets rather than global health need, leaving high-burden infectious diseases significantly underserved.",1,1,1,1,1,1,1,1,0,1,9,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1
+2,bar,simple,"Prevalence of common mental health conditions (CMHCs) in past week, by area level deprivation (age-standardised) (Base: All adults)",Likelihood of having a CMHC was associated with area-level deprivation. Prevalence of a CMHC was highest among those living in areas in the most deprived quintile (age-standardised 26.2%) and lowest among those living in areas in the least deprived quintile (16.0%).  The pattern of association between having a CMHC and area-level deprivation was similar in men and women.,viz2.jpg,"Chart type: This is a vertical bar chart comparing the prevalence of common mental health conditions (CMHCs) across different area-level deprivation groups.
+Axes: The x-axis shows deprivation categories ranging from “Least deprived” to “Most deprived.” The y-axis shows the percentage (%) of adults reporting a CMHC in the past week.
+Main trend: The prevalence of common mental health conditions steadily increases as area deprivation becomes greater.
+Key values: The highest prevalence is in the “Most deprived” group at approximately 26%, while the lowest is in the “Least deprived” group at about 16%.
+Comparison: Adults living in the most deprived areas have roughly a 10 percentage-point higher prevalence of CMHCs compared with those in the least deprived areas.
+Takeaway: The chart demonstrates a clear relationship between socioeconomic deprivation and mental health. Rates rise gradually from around 16% in the least deprived areas to 18–19% in middle groups, then increase more sharply to 23% in the fourth deprivation group and 26% in the most deprived group. This suggests that adults living in poorer areas experience substantially higher levels of mental health difficulties, highlighting the strong influence of social and economic conditions on mental wellbeing.","1. Chart Type: Vertical bar chart comparing five deprivation groups at a single time point.
+2. Axes: X-axis: Area-level deprivation quintile (Least deprived to Most deprived); Y-axis: Percentage of adults reporting a common mental health condition in the past week (0–30%).
+3. Main Trend: Prevalence of common mental health conditions rises consistently and progressively as area-level deprivation increases, forming a clear social gradient.
+4. Key Values: Highest — Most deprived areas at approximately 26%; Lowest — Least deprived areas at approximately 15%.
+5. Comparison: Adults in the most deprived areas (~26%) are nearly twice as likely to experience a common mental health condition than those in the least deprived areas (~15%) — an 11 percentage point gap.
+6. Takeaway: This chart demonstrates a clear and consistent deprivation gradient in mental health: every step increase in deprivation corresponds to higher prevalence of common mental health conditions. Moving from least to most deprived, rates climb steadily from ~15% through 17%, 19%, 23%, reaching ~26% — a 73% relative increase. This pattern strongly suggests that poverty, poor housing, unemployment, and reduced access to services in deprived areas are significant drivers of poor mental health, making place-based inequality a critical target for public mental health intervention.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,2
+3,bar,simple,Figure 6: Unexplained infant deaths tend to be more prevalent in colder months,Combined data from 2004 to 2022p show that there is a tendency for more unexplained infant deaths to occur in the colder months of the year than in the warmer months (Figure 6).,viz3.jpg,"1. **Chart type:** This is a vertical bar chart showing the monthly distribution of unexplained infant deaths in England and Wales from 2004 to 2022.
+
+2. **Axes:** The x-axis lists the months from January to December. The y-axis shows the “Percentage of all unexplained infant deaths (%)”.
+
+3. **Main trend:** Unexplained infant deaths are more common during colder months and less common during summer months.
+
+4. **Key values:** The highest percentage occurs in December at approximately 9.4% of all unexplained infant deaths, while the lowest occurs in August at about 7.2%.
+
+5. **Comparison:** December’s rate is around 2.2 percentage points higher than August’s, indicating noticeably greater prevalence during winter compared with late summer.
+
+6. **Takeaway:** The chart suggests a clear seasonal pattern in unexplained infant deaths. Winter months such as December (9.4%), February (9.1%), and January/March (around 8.9%) consistently show higher percentages, while summer months including June (7.6%), July (7.8%), and especially August (7.2%) show lower levels. Rates begin rising again in autumn, reaching 8.4% in November before peaking in December. This pattern may indicate that colder weather, seasonal infections, or indoor environmental factors contribute to increased risk during winter months.","1. Chart Type: Vertical bar chart comparing twelve monthly categories at a single averaged time point.
+2. Axes: X-axis: Month (January–December); Y-axis: Percentage of all unexplained infant deaths (0–10%).
+3. Main Trend: Unexplained infant deaths are consistently more frequent in winter months, with a clear dip during the summer period of June through September.
+4. Key Values: Highest — December at approximately 9.4%; Lowest — August at approximately 7.2%.
+5. Comparison: December (~9.4%) records approximately 30% more unexplained infant deaths than August (~7.2%), representing the starkest seasonal contrast in the dataset.
+6. Takeaway: Across England and Wales between 2004 and 2022, unexplained infant deaths — which include sudden infant death syndrome (SIDS) — followed a consistent seasonal pattern, peaking in winter months (December ~9.4%, February ~9.0%, January ~8.8%) and falling to their lowest during summer (August ~7.2%, June ~7.6%). This pattern likely reflects cold-weather risk factors including respiratory infections, overheating from excess bedding used in winter, and indoor crowding. The relatively narrow absolute range (7.2%–9.4%) suggests seasonality is a contributing factor rather than the sole determinant, and that preventive strategies should be intensified during winter months.",1,1,1,1,1,1,1,1,0,1,9,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,2
+4,bar,simple,"Fig. 1: New cases of female with breast cancer of all races, 2013–2017. Breast cancer is most frequently diagnosedamong females aged 55–64 (median age at diagnosis = 62 years)","It is the most common cancer in women worldwide,particularly in middle-aged and older women andthe rate of new cases of female with breast canceris 128.5 per 100,000 women per year (42, 43) (Fig.1)",viz4.jpg,"1. **Chart type:** This is a bar chart showing the percentage distribution of new breast cancer cases among females by age group between 2013 and 2017.
+
+2. **Axes:** The x-axis displays age groups, ranging from “<20” to “>84” years. The y-axis shows the “Percent of New Cases,” measured as a percentage of total breast cancer diagnoses.
+
+3. **Main trend:** Breast cancer diagnoses increase with age, peak in women aged 55–74, and then decline in the oldest age groups.
+
+4. **Key values:** The highest percentage of new cases occurs in women aged 55–64 at 25.7%, closely followed by ages 65–74 at 25.5%. The lowest is in females younger than 20 years, with 0% of cases.
+
+5. **Comparison:** Women aged 55–64 have approximately 24 percentage points more breast cancer diagnoses than women aged 20–34 (25.7% vs 1.9%), showing a strong age-related increase in risk.
+
+6. **Takeaway:** The chart demonstrates that breast cancer is primarily a disease affecting middle-aged and older women. Cases rise steadily from 1.9% in ages 20–34 to 19.7% in ages 45–54, before peaking at 25.7% in ages 55–64. Rates remain similarly high in ages 65–74 (25.5%) but then fall to 13.6% in ages 75–84 and 5.4% above age 84. The reported median diagnosis age of 62 years aligns closely with the peak age group, highlighting the importance of screening and early detection in women over 50.","1. Chart Type: Vertical bar chart (histogram) with an overlaid line showing distribution across age groups.
+2. Axes: X-axis: Age group in years (<20 to >84); Y-axis: Percentage of new breast cancer cases (0–30%).
+3. Main Trend: New breast cancer diagnoses rise sharply from young adulthood, peak in the 55–74 age range, then decline, forming a classic bell-shaped distribution centred in midlife.
+4. Key Values: Highest — ages 55–64 at 25.7% of all new cases; Lowest — under 20 at 0%.
+5. Comparison: The 55–64 age group (25.7%) accounts for over thirteen times more new cases than the 20–34 group (1.9%), illustrating how dramatically risk escalates with age.
+6. Takeaway: Between 2013–2017, breast cancer diagnoses were heavily concentrated in midlife and older women, with the 55–64 and 65–74 groups together accounting for over 51% of all new cases — and a median diagnosis age of 62 years. Risk begins rising meaningfully from age 35 (8.3%) and accelerates sharply through 45–54 (19.7%). Cases decline after 74, likely reflecting both biological factors and reduced screening uptake. This age distribution strongly supports the rationale for routine mammography screening programmes targeting women aged 50–74, while highlighting that younger women — though at lower risk — are not immune.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+5,bar,simple,"Figure 1. Causes of acute liver failure, as recorded by the site principal investigator in the US Adult Acute Liver Failure Study Group Registry","Data were collected between Jan 1, 1998 and March 31, 2019. The total number of patients enrolled is 2614; paracetamol accounts for 46% of cases, 12% of cases have indeterminate causes, and drug-induced liver injury accounts for 11% of cases. *The number of patients with acute liver failure with an indeterminate cause decreased to 161, or 5·5% of the total, after review.1",viz5.jpg,"1. **Chart type:** This is a vertical bar chart showing the number of patients with different causes of acute liver failure recorded in the US Adult Acute Liver Failure Study Group Registry.
+
+2. **Axes:** The x-axis lists the causes of acute liver failure, including paracetamol, viral infections, autoimmune disease, and others. The y-axis shows the “Number of patients.”
+
+3. **Main trend:** Paracetamol-related acute liver failure is by far the most common cause, greatly exceeding all other categories.
+
+4. **Key values:** The highest value is for paracetamol, with 1,195 patients. The lowest value is Budd–Chiari syndrome, with 18 patients.
+
+5. **Comparison:** Paracetamol cases are almost four times higher than the next largest category, “Indeterminate,” which recorded 304 patients.
+
+6. **Takeaway:** The chart highlights that paracetamol overdose or toxicity is the dominant contributor to acute liver failure in this registry, accounting for 1,195 patients—far more than drug-induced liver injury (283), hepatitis B virus (188), autoimmune causes (173), or ischaemia (179). Several conditions, such as Wilson disease (29), pregnancy-related liver failure (27), and Budd–Chiari syndrome (18), are comparatively rare. The large “Indeterminate” category (304 patients) also suggests that a substantial number of cases have no clearly identified cause. Overall, the data emphasize the major clinical importance of medication-related liver toxicity, especially involving paracetamol.","1. Chart Type: Vertical bar chart comparing eleven categories of acute liver failure causes.
+2. Axes: X-axis: Cause of acute liver failure (11 categories); Y-axis: Number of patients (0–1,200).
+3. Main Trend: Paracetamol (acetaminophen) overdose dominates as the single leading cause of acute liver failure, dwarfing all other causes combined.
+4. Key Values: Highest — Paracetamol at 1,195 patients; Lowest — Budd-Chiari syndrome at just 18 patients.
+5. Comparison: Paracetamol (1,195 patients) accounts for more than four times the cases of the next highest identified cause, drug-induced liver injury (283) — an overwhelming disparity highlighting paracetamol's outsized contribution.
+6. Takeaway: Among US adults registered with acute liver failure, paracetamol toxicity is by far the dominant cause at 1,195 cases — representing the majority of all identifiable cases. This is particularly concerning as paracetamol is an over-the-counter medication, and overdose is frequently linked to intentional self-harm or unintentional excessive dosing. Drug-induced liver injury (283), indeterminate causes (304), Hepatitis B (188), ischaemia (179), and autoimmunity (173) form a secondary cluster. Rare conditions like Budd-Chiari syndrome (18) and pregnancy-related failure (27) account for very few cases. The high indeterminate count (304) also highlights ongoing diagnostic challenges in liver failure.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,2
+6,bar,moderate,"Self-diagnosed CMHC, profesional diagnosed CMHC and presence of diagnosed CMHC in past year, among adults with CMHC in the past week (Base: Adults with a CMHC as identified by CIS-R)","Among those identified by the CIS-R as having a CMHC, most (66.6%) felt that they have had depression, 45.8% felt that they have had ‘panic attacks’, and 29.4% felt that they have had ‘any other anxiety disorder’. Similarly, these were also the most common professional diagnoses that those identified by the CIS-R reported having been given: 55.1% reported having been diagnosed with depression, 29.4% reported having been diagnosed with panic attacks, and 21.0% reported having been diagnosed with ‘any other anxiety disorder’.",viz6.jpg,"1. **Chart type:** Grouped bar chart comparing self-diagnosed and professionally diagnosed common mental health conditions (CMHCs).
+
+2. **Axes:** The x-axis shows mental health conditions (Depression, Panic attacks, OCD, Phobias, etc.). The y-axis shows percentage (%) of adults with a CMHC identified by CIS-R.
+
+3. **Main trend:** Depression and panic attacks are the most commonly reported and diagnosed CMHCs, while conditions such as post-natal depression and phobias are much less frequently diagnosed in the past year.
+
+4. **Key values:** The highest value is “Ever had depression” at about 66%. The lowest value is “Had in last 12 months (diagnosed)” for post-natal depression at about 1%.
+
+5. **Comparison:** Depression shows the largest gap between “Ever had” (66%) and “Had in last 12 months” (44%), indicating many adults previously experienced depression but fewer had a recent diagnosis.
+
+6. **Takeaway:** The chart suggests depression dominates the CMHC burden, with over half of adults reporting they had ever experienced it and 55% receiving a professional diagnosis. Panic attacks were also common, affecting around 46% ever and 29% professionally diagnosed. In contrast, OCD, phobias, and post-natal depression each remained below 15% across most measures, highlighting major differences in prevalence and diagnosis patterns across conditions.","**1. Chart Type:** Grouped vertical bar chart comparing three diagnostic measures across seven mental health conditions.
+
+**2. Axes:** X-axis: Mental health condition (7 categories); Y-axis: Percentage of adults with a clinically identified CMHC (0–75%).
+
+**3. Main Trend:** Across all conditions, self-reported experience consistently exceeds professional diagnosis, which in turn exceeds recent (12-month) diagnosed prevalence — revealing a systematic gap between lived experience and formal recognition.
+
+**4. Key Values:** Highest — Depression ""ever had"" at ~68%; Lowest — Post-natal depression ""had in last 12 months"" at approximately 1%.
+
+**5. Comparison:** For depression, 68% reported ever having it, yet only ~45% received a formal diagnosis — a ~23 percentage point gap representing thousands of adults whose condition went clinically unrecognised.
+
+**6. Takeaway:** This chart exposes a consistent and concerning diagnostic gap across all common mental health conditions. Depression shows the largest absolute gap — while ~68% self-identify as ever having experienced it, only ~57% were ever professionally diagnosed and just ~45% had a documented diagnosis in the past 12 months. Similar patterns appear in panic attacks (47% vs 30% vs 20%) and OCD (13% vs 6% vs 5%). Conditions like nervous breakdown and post-natal depression show particularly sharp drop-offs between experience and formal diagnosis, suggesting significant under-recognition and under-treatment. This points to systemic barriers including stigma, access to services, and clinician awareness that prevent people from receiving timely, appropriate mental health care.",1,1,1,1,1,1,1,0,1,1,9,1,1,1,1,1,1,1,0,0,0,7,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,1,0,1,1,5
+7,bar,moderate,Prevalence of leukemia types in different age groups,"Based on the associations previously identiﬁed in the pediatric population (≤18 years)between LL and ALL, along with the high age-standardized incidence rates (ASIRs) ofthese leukemia types and subtypes in both the pediatric and adult groups, an analysis wasconducted by age group according to the INEGI classiﬁcation to determine the distribution,prevalence, and incidence rates of leukemia types and subtypes in speciﬁc age groups.A peak in LL cases was observed in the childhood group, accounting for 93.4% of cases,with a subsequent decline in prevalence within older age groups. The lowest prevalence ofLL (41.8%) was found in the adulthood group. Conversely, for ML cases, the age group withthe lowest prevalence was childhood (6.6%), with an increase observed in older age groups.The highest prevalence of ML (58.2%) was identiﬁed in the adulthood group (Figure 3)",viz7.jpg,"1. **Chart type:** Grouped bar chart comparing the prevalence of lymphocytic leukemia and myeloid leukemia across age groups.
+
+2. **Axes:** The x-axis shows age groups, from infancy (0–4 years) to late adulthood (>65 years). The y-axis shows prevalence percentage (%).
+
+3. **Main trend:** Lymphocytic leukemia is most common in younger age groups, while myeloid leukemia becomes more common with increasing age.
+
+4. **Key values:** The highest value is lymphocytic leukemia in childhood (5–9 years) at 93.4%. The lowest value is myeloid leukemia in childhood (5–9 years) at 6.6%.
+
+5. **Comparison:** The strongest contrast appears in childhood (5–9 years), where lymphocytic leukemia prevalence (93.4%) is dramatically higher than myeloid leukemia (6.6%), showing opposite dominance patterns in children.
+
+6. **Takeaway:** The chart highlights a clear age-related shift in leukemia type. Lymphocytic leukemia dominates in children and adolescents, remaining high in infancy (83.8%), childhood (93.4%), and adolescence (80.0%), but declines sharply in adults to about 42% in those over 30 years. In contrast, myeloid leukemia is uncommon in childhood but rises steadily with age, reaching 58.2% in adults aged 30–64 years and 57.4% in late adulthood, indicating it is primarily an adult leukemia type.","**1. Chart Type:** Grouped vertical bar chart comparing two leukemia types across six age groups.
+
+**2. Axes:** X-axis: Age group (Infancy to Late adulthood, split by leukemia type); Y-axis: Prevalence as a percentage (0–100%).
+
+**3. Main Trend:** Lymphocytic leukemia dominates in childhood and declines with age, while myeloid leukemia follows the opposite pattern — rare in childhood but rising sharply in older adults.
+
+**4. Key Values:** Highest — Lymphocytic leukemia in childhood (5–9 years) at 93.4%; Lowest — Myeloid leukemia in childhood (5–9 years) at 6.6%.
+
+**5. Comparison:** In childhood (5–9 years), lymphocytic leukemia accounts for 93.4% versus myeloid's 6.6% — a 14-fold difference — yet by late adulthood (>65 years) both converge at 57.4% and 58.2% respectively, representing a near-complete reversal.
+
+**6. Takeaway:** This chart reveals a striking age-dependent divergence between the two main leukemia types. Lymphocytic leukemia is overwhelmingly the childhood form, peaking at 93.4% in the 5–9 age group before declining steadily through adulthood to 42.6% in late adulthood. Myeloid leukemia shows the precise opposite trajectory — lowest in childhood (6.6%) and rising consistently to 58.2% in those over 65. By late adulthood, both types reach near-equal prevalence (~58%), suggesting different biological mechanisms drive leukemia in young versus older patients, with critical implications for age-appropriate screening, diagnosis, and treatment strategies.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,0,0,0,1,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,3
+8,bar,moderate,"Figure 2. Total penicillin (J01C) use subdivided into four main subgroups in 12 European countries and Kosovo, 2011 DDD=defined daily doses. *Reported only outpatient antibiotic use.","Penicillins (ATC group J01C) were the most commonly used antibiotics in all countries. Highest proportional use of penicillins of total antibiotic use was noted for Georgia (67·6%; 14·2 DID), and then Azerbaijan (65·9%; 11·4 DID). Highest total penicillin use was reported for Tajikistan (18·2 DID; figure 2) and lowest for Armenia (6·1 DID). Narrow spectrum penicillin use, mainly phenoxymethylpenicillin, was low and varied from 0·02 DID in Belarus to 1·3 DID in Montenegro. Amoxicillin and ampicillin were very commonly used in Tajikistan (15·9 DID; 45·6% of total antibiotic use) and Azerbaijan (9·7 DID; 55·9%) and amoxicillin in Montenegro (9·1 DID; 23·6%). Highest use of combinations of penicillins (mainly co-amoxiclav) was noted for Turkey (13·0 DID; 30·7% for co-amoxiclav of total antibiotic use) and Georgia (9·0 DID; 42·9%), and lowest use was noted for Azerbaijan (0·5 DID) and Kyrgyzstan (0·6 DID). Penicillin (ATC group J01C) use was also compared with 29 ESAC-Net countries (appendix).",viz8.jpg,"1. **Chart type:** Stacked bar chart showing total penicillin use divided into four penicillin subgroups across European countries in 2011.
+
+2. **Axes:** The x-axis lists 12 European countries plus Kosovo. The y-axis shows antibiotic consumption measured as DDD/1000 inhabitants per day (defined daily doses per 1000 people per day).
+
+3. **Main trend:** Broad-spectrum penicillins account for the largest share of use in most countries, although total penicillin consumption varies widely between countries.
+
+4. **Key values:** Tajikistan has the highest total penicillin use at about 18 DDD/1000 inhabitants/day, while Armenia has the lowest at roughly 6 DDD/1000 inhabitants/day.
+
+5. **Comparison:** Turkey differs most from Tajikistan because Turkey’s use is dominated by penicillin combinations with β-lactamase inhibitors (red section), whereas Tajikistan mainly uses broad-spectrum penicillins (peach section).
+
+6. **Takeaway:** The chart highlights substantial variation in antibiotic prescribing patterns across Europe and neighboring regions. Tajikistan, Turkey, and Montenegro show the highest overall penicillin use, exceeding 17 DDD/1000 inhabitants/day, while Armenia and Belarus remain below 7. In most countries, broad-spectrum penicillins contribute the majority of prescribing, but some countries, especially Turkey and Georgia, rely heavily on combination penicillins with β-lactamase inhibitors. Narrow-spectrum and β-lactamase-resistant penicillins contribute only small proportions across nearly all countries.","**1. Chart Type:** Stacked vertical bar chart comparing four penicillin subgroups across 13 countries.
+
+**2. Axes:** X-axis: Country (13 nations); Y-axis: Penicillin consumption in defined daily doses (DDD) per 1,000 inhabitants per day (0–20).
+
+**3. Main Trend:** Total penicillin consumption varies threefold across countries, with broad-spectrum and combination penicillins dominating usage patterns almost universally.
+
+**4. Key Values:** Highest — Tajikistan at ~18.2 DDD/1,000/day; Lowest — Armenia at approximately 6.0 DDD/1,000/day.
+
+**5. Comparison:** Tajikistan (~18.2) consumes approximately three times more penicillin than Armenia (~6.0), representing a dramatic variation in antibiotic use that carries significant antimicrobial resistance implications.
+
+**6. Takeaway:** This chart reveals substantial variation in penicillin consumption across Eastern Europe and Central Asia in 2011, with Tajikistan, Turkey, and Montenegro recording the highest usage (17–18 DDD/1,000/day) and Armenia, Belarus, and Moldova the lowest (~6–7). Critically, broad-spectrum penicillins (pink) and combination penicillins including β-lactamase inhibitors (red) dominate consumption in nearly every country — both classified as higher-risk for driving antimicrobial resistance. Narrow-spectrum penicillins (green), which are preferred for targeted treatment and resistance stewardship, represent only a minor fraction across all nations. This pattern of preferring broader agents over targeted narrow-spectrum options signals a widespread prescribing practice that could be accelerating antibiotic resistance across the region.",1,0,1,1,1,1,1,1,1,1,9,1,1,1,1,1,1,1,1,0,1,9,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1
+9,bar,moderate,"Figure 9: Prevalence of multiple raised biomarkers, by age and sex","For both men and women, there was marked variation by age in the prevalence of two or more raised biomarkers. It was higher for men than for women between the ages of 25 and 44, and higher for women than men among those aged 65 and over.",viz9.jpg,"1. **Chart type:** Stacked horizontal bar chart comparing the prevalence of raised biomarkers by age group and sex.
+
+2. **Axes:** The y-axis shows age groups separately for men and women (16–24 to 75+ years). The x-axis shows percentage (%) of people with 0, 1, 2, or 3 raised biomarker risks.
+
+3. **Main trend:** The proportion of people with multiple raised biomarkers increases with age, while the percentage with no raised risks decreases in older age groups.
+
+4. **Key values:** The highest proportion with 0 risks is among men aged 16–24 at about 83–85%. The highest proportion with 2 or 3 risks appears in women aged 75+, where roughly 28–30% have multiple raised biomarkers.
+
+5. **Comparison:** Younger adults (16–24) are far more likely to have 0 raised risks than adults aged 75+, with differences of around 60 percentage points in some groups.
+
+6. **Takeaway:** The chart shows a strong age-related increase in health risk biomarkers for both sexes. Most younger adults, especially those aged 16–24, have no raised biomarkers, with levels above 80% in both men and women. However, as age increases, the proportion with one or more risks rises steadily. Adults aged 65–74 and 75+ show much higher levels of two or three raised biomarkers, particularly women. By older adulthood, only around 20–40% remain risk-free, suggesting that metabolic and cardiovascular health risks accumulate substantially with age.","**1. Chart Type:** Stacked horizontal bar chart comparing four risk categories across 14 age-sex groups.
+
+**2. Axes:** Y-axis: Age group by sex (men and women aged 16–75+); X-axis: Percentage of adults with valid blood tests (0–100%).
+
+**3. Main Trend:** The proportion of adults with zero raised biomarkers decreases sharply with age in both sexes, while multiple risk biomarkers accumulate progressively in older groups.
+
+**4. Key Values:** Highest ""0 risks"" — Men aged 16–24 at ~82%; Lowest ""0 risks"" — Women aged 55–64 at approximately 17%.
+
+**5. Comparison:** Men aged 16–24 (~82% with zero risks) compared to men aged 55–64 (~23% with zero risks) shows a ~59 percentage point collapse in biomarker-free status across four decades of life.
+
+**6. Takeaway:** This chart powerfully illustrates how cardiometabolic risk accumulates with age. In young adults (16–24), the vast majority carry no raised biomarkers — men at ~82%, women at ~80%. By middle age (55–64), this collapses dramatically: only ~23% of men and ~17% of women remain risk-free. Women show slightly greater biomarker burden in older age groups than men, particularly at 55–74, despite lower rates in younger years. The growing presence of 2- and 3-risk profiles from age 45 onwards underscores the critical importance of early preventive intervention and routine blood screening well before midlife.",1,1,1,1,1,0,0,0,1,0,6,1,1,1,1,1,0,0,0,0,0,5,0,0,1,1,0,0,0,0,1,3,0,0,1,1,0,0,0,1,1,4
+10,bar,moderate,"Figure 2. Contribution Of Each Age Group to All-Cause Mortality By Year. (Deaths 11, 281, Person Years Observed (PYO) 784, 274).","The largest proportion (52%) of deaths occurred in the 15-49 age group followed by the 65 and older age group at 18%. The under-5 age group contributed 20% of the deaths in 2000, but this declined to between 9% and 11% from 2007 to 2009. Overall, 82% of all deaths occurred before the age of 65 years, declining from a high of 85% in 2000 to 79% in 2009 (Figure 2).",viz10.jpg,"1. **Chart type:** Stacked bar chart with an overlaid line graph showing contributions of different age groups to all-cause mortality over time.
+
+2. **Axes:** The x-axis shows year (2000–2009). The y-axis shows deaths per 1,000 person-years observed (PYO). The black line represents age-standardized all-cause mortality.
+
+3. **Main trend:** Overall mortality increased from 2000 to a peak around 2003, then steadily declined through 2009 across most age groups.
+
+4. **Key values:** The highest all-cause mortality occurred in 2003 at approximately 175 deaths per 1,000 PYO. The lowest occurred in 2009 at about 116 deaths per 1,000 PYO.
+
+5. **Comparison:** Adults aged 15–49 years contributed the largest share of mortality throughout the period, far exceeding the smaller contributions from children aged 5–14 years.
+
+6. **Takeaway:** The chart shows that mortality burden was highest in the early 2000s, especially in 2002–2003, when total mortality reached around 170–175 deaths per 1,000 PYO. After 2003, mortality steadily decreased, falling to nearly 115 by 2009. The 15–49 year age group consistently contributed the greatest proportion of deaths, while children aged 5–14 years contributed the least. Mortality reductions after 2003 were visible across nearly all age groups, suggesting broad improvements in population health and survival over the decade.","**1. Chart Type:** Stacked vertical bar chart with an overlaid age-standardised mortality line and confidence intervals.
+
+**2. Axes:** X-axis: Year (2000–2009); Y-axis: Deaths per 10,000 person years observed (PYO), ranging 0–200.
+
+**3. Main Trend:** All-cause mortality rose from 2000 to a peak in 2003 before declining consistently through 2009, with the 15–49 age group contributing the largest share throughout.
+
+**4. Key Values:** Highest — age-standardised mortality ~175 per 10,000 PYO in 2003; Lowest — approximately 117 per 10,000 PYO in 2009.
+
+**5. Comparison:** Between 2003 (~175) and 2009 (~117), overall mortality fell by approximately 33% — a substantial and sustained decline representing meaningful population-level health improvement.
+
+**6. Takeaway:** This chart — likely from an HIV-affected cohort given the PYO methodology and age distribution — shows total mortality peaking at ~175 per 10,000 PYO in 2003 before falling substantially to ~117 by 2009, a 33% reduction. The 15–49 age group consistently dominates mortality contribution, which is atypical for general populations but characteristic of HIV epidemics where working-age adults bear the greatest burden. The sharp post-2003 decline aligns with expanded antiretroviral therapy (ART) rollout in many high-burden settings. Younger age groups (0–4, 5–14) contribute relatively modestly but remain visible throughout, suggesting ongoing paediatric transmission challenges despite overall improvements.",1,1,0,1,1,1,0,1,1,1,8,1,1,1,1,1,1,0,0,0,1,7,0,1,0,1,0,0,0,0,0,2,0,0,0,1,0,0,0,1,0,2
+11,bar,complex,"Figure 3 Burden of infections with antibiotic-resistant bacteria in DALYs, EU and European Economic Area, 2015","Italy and Greece had a substantially higher estimated burden of antibiotic-resistant bacteria than other EU and EEA countries, with carbapenem-resistant or colistin-resistant bacteria causing a larger proportion of the total burden in Greece than it did in Italy (figure 3). In 2015, in addition to a substantial burden due to infections with carbapenem-resistant or colistin-resistant bacteria, Portugal and Malta had a substantial burden due to MRSA infections. In Ireland, vancomycin-resistant E faecalis and E faecium caused a higher proportion of the total burden than in other countries. In Spain and Slovenia, a higher proportion of their burden estimates were due to antibiotic-resistant S pneumoniae infections than in other countries.",viz11.jpg,"1. **Chart type:** Horizontal stacked bar chart showing the burden of antibiotic-resistant bacterial infections across EU/EEA countries in 2015.
+
+2. **Axes:** The y-axis lists EU and European Economic Area countries. The x-axis measures DALYs (Disability-Adjusted Life Years), representing years of healthy life lost because of illness or early death from antibiotic-resistant infections.
+
+3. **Main trend:** Southern and Eastern European countries generally show a much higher burden of antibiotic-resistant infections than Northern European countries.
+
+4. **Key values:** Italy has the highest burden at approximately 450 DALYs, with median estimates of 201,584 cases and 10,762 deaths. Iceland has the lowest burden at roughly 5 DALYs, with only 27 cases and 1 death.
+
+5. **Comparison:** Italy’s burden is dramatically larger than Iceland’s, showing nearly a hundred-fold difference in antibiotic-resistance impact across Europe.
+
+6. **Takeaway:** The chart demonstrates substantial variation in antibiotic-resistant infections across Europe in 2015. Italy, Greece, Romania, and Portugal had the highest burdens, largely driven by resistant *E. coli*, *Klebsiella pneumoniae*, and carbapenem-resistant bacteria. The EU/EEA overall burden exceeded 160 DALYs, with 671,689 median infection cases and 33,110 deaths. Northern countries such as Iceland, Estonia, Norway, and Finland experienced far lower burdens, generally below 40 DALYs. These findings suggest that antibiotic resistance was a major public health challenge in several southern and eastern European countries, contributing to large numbers of preventable illnesses and deaths.","1. Chart Type: Stacked horizontal bar chart with error bars, broken down by five antibiotic-resistant bacteria categories across 30 European countries.
+2. Axes: Y-axis: European countries (and EU/EEA aggregate). X-axis: DALYs per 100,000 population (Disability-Adjusted Life Years — a measure combining illness and premature death).
+3. Main Trend: Southern and Eastern European countries bear a dramatically higher burden of antibiotic-resistant infections than Northern and Western European nations.
+4. Key Values: Highest: Italy at ~450 DALYs per 100,000 (201,584 cases; 10,762 deaths). Lowest: Iceland at nearly 0 DALYs per 100,000 (27 cases; 1 death).
+5. Comparison: Italy's burden (~450 DALYs) is approximately 45 times greater than Iceland's (~1 DALY), despite both being European nations with developed healthcare systems.
+6. Takeaway: Third-generation cephalosporin-resistant bacteria (orange) dominate the burden across virtually all countries, but Italy and Greece stand out alarmingly — exceeding 400 DALYs per 100,000 — driven heavily by carbapenem-resistant organisms (green). Northern countries like Iceland, Estonia, and Norway remain near zero, revealing a stark geographical divide in antimicrobial resistance burden that strongly suggests Southern European healthcare systems require urgent, targeted antibiotic stewardship interventions.",1,1,0,1,1,1,0,1,0,0,6,1,1,1,1,0,1,0,0,0,0,5,0,1,0,1,1,0,0,1,1,5,1,0,0,1,1,1,0,1,1,6
+12,bar,complex,"Fig. 1: Prevalence of PAD in relation to age and country income. The prevalence of peripheral artery disease (PAD) increases with age, particularly in high-income countries (HICs) compared with low-income and middle-income countries (LMICs). Prevalence of PAD reported as percentage. The graph was generated using data from ref.5.","The epidemiology of PAD was examined in detail in a 2019 systematic review of 118 articles reporting findings from 33 countries5. Figure 1 illustrates the estimated prevalence of PAD in men and women in high-income countries (HICs) and in low-income and middle-income countries (LMICs) reported in that review5. The prevalence of PAD increased with age, and this age-related rise was more marked in HICs than in LMICs5 (Fig. 1). The prevalence of PAD in women was greater than in men for many age ranges (Fig. 1).",viz12.jpg,"1. **Chart type:** Grouped bar chart comparing peripheral artery disease (PAD) prevalence by age, sex, and country income level.
+
+2. **Axes:** The x-axis shows age groups in years (25–29 through ≥90, plus total ≥25 years). The y-axis shows prevalence of PAD as a percentage (%). Bars compare worldwide prevalence and results for men and women in low- and middle-income countries (LMICs) and high-income countries (HICs).
+
+3. **Main trend:** PAD prevalence rises steadily with age and becomes substantially higher in older adults, especially in high-income countries.
+
+4. **Key values:** The highest prevalence appears in men aged ≥90 years in HICs at about 34%. The lowest prevalence is in men aged 25–29 years in HICs at roughly 1–1.5%.
+
+5. **Comparison:** Older adults in HICs have much higher PAD prevalence than those in LMICs; for example, among people aged ≥90 years, HIC men have about 34% prevalence compared with roughly 14% in LMIC men.
+
+6. **Takeaway:** This chart shows that PAD becomes increasingly common with ageing across all populations. Prevalence remains below 5% before age 50 but rises sharply after age 65. HIC populations consistently show higher rates than LMIC populations, particularly in older age groups. Women in HICs aged 85–89 have PAD prevalence near 25%, while men exceed 27%. Worldwide prevalence for people aged ≥90 reaches about 25%. These findings suggest that ageing populations, especially in wealthier countries, face a substantial burden of PAD and may require greater cardiovascular screening and prevention efforts.","**1. Chart Type:** Grouped vertical bar chart comparing five population groups across fourteen age bands.
+
+**2. Axes:** X-axis: Age group in years (25–29 to ≥90, plus total); Y-axis: Prevalence of peripheral artery disease as a percentage (0–35%).
+
+**3. Main Trend:** PAD prevalence rises steeply with age in all groups, but high-income country (HIC) populations — particularly men — show dramatically higher prevalence than low-and-middle-income country (LMIC) populations at every age.
+
+**4. Key Values:** Highest — HIC men aged ≥90 at ~34.5%; Lowest — HIC men aged 25–29 at approximately 1.3%.
+
+**5. Comparison:** At age ≥90, HIC men (~34.5%) show more than double the prevalence of LMIC men (~14.3%) — a striking reversal of the expected pattern where wealthier nations typically have better health outcomes.
+
+**6. Takeaway:** This chart reveals a counterintuitive finding: PAD is substantially more prevalent in high-income countries than LMICs across all age groups, particularly in older adults. HIC men reach ~34.5% prevalence at ≥90 years versus ~14.3% for LMIC men — likely reflecting greater longevity, higher rates of obesity, diabetes, and smoking in ageing HIC populations, combined with better diagnostic detection. In younger adults (25–54), differences between income groups are modest (~2–5%), but diverge sharply from age 65 onward. Women consistently show slightly lower PAD prevalence than men within both income settings. These findings highlight that PAD is an escalating burden in ageing high-income populations, demanding urgent investment in vascular screening programmes targeting adults over 65.",1,1,1,1,1,1,0,0,0,0,6,1,1,1,1,1,0,0,1,0,0,6,1,0,1,1,0,0,0,1,1,5,0,0,1,1,0,0,0,1,1,4
+13,bar,complex,"Fig. 4 A stacked bar graph of all the epidemic events by disease in the countries of the WHO African region, 2016–2018","Five countries (the DRC, Kenya, Nigeria, South Sudan and Uganda) re- ported over 15 public health events during the period 2016–2018. The top five causes of outbreaks during the period 2016–2018 were: Cholera, Measles and Viral Haemor- rhagic Diseases, such as Ebola Virus Disease, Yellow Fever, Dengue Fever, Lassa Fever, and Rift Valley Fever. Other causes were Malaria and Meningitis.",viz13.jpg,"1. **Chart type:** Stacked bar chart showing epidemic outbreaks by disease type across countries in the WHO African Region between 2016 and 2018.
+
+2. **Axes:** The x-axis lists African countries, while the y-axis shows the number of outbreak events (“Outbreaks”). Different colors within each bar represent specific infectious diseases.
+
+3. **Main trend:** Several countries experienced multiple overlapping outbreaks, with a few countries reporting substantially more epidemic events than others.
+
+4. **Key values:** Nigeria and Uganda show the highest total outbreak counts at approximately 19 outbreaks each. Countries such as Mauritius, São Tomé and Príncipe, and Seychelles show the lowest totals, with about 1 outbreak each.
+
+5. **Comparison:** Nigeria’s outbreak burden is nearly twenty times higher than countries reporting only one outbreak, highlighting major differences in epidemic activity across the region.
+
+6. **Takeaway:** This chart demonstrates the wide diversity and uneven distribution of infectious disease outbreaks across the WHO African Region from 2016–2018. Countries including Nigeria, Uganda, South Sudan, and the Democratic Republic of Congo experienced the highest outbreak numbers, involving diseases such as cholera, measles, malaria, yellow fever, Ebola virus disease, and meningitis. Many countries faced several different diseases simultaneously, shown by the large number of colored segments in each bar. In contrast, smaller island nations and some lower-burden countries recorded very few outbreaks. The findings emphasize the heavy infectious disease burden in parts of Africa and the importance of strong outbreak surveillance and rapid public health response systems.","**1. Chart Type:** Stacked vertical bar chart comparing disease-specific outbreak frequencies across 40 African countries.
+
+**2. Axes:** X-axis: Country (40 WHO African region nations); Y-axis: Number of outbreak events (0–20).
+
+**3. Main Trend:** Outbreak burden is highly concentrated in a small number of countries — particularly Nigeria, Uganda, DRC, and Kenya — while many nations recorded only 3–5 events across 2016–2018.
+
+**4. Key Values:** Highest — Nigeria and Uganda both at ~19 outbreaks; Lowest — several countries including Mauritius, Seychelles, and São Tomé recording only 1–2 outbreaks.
+
+**5. Comparison:** Nigeria (~19 outbreaks spanning Lassa fever, cholera, meningitis, and multiple others) versus Mauritius (~1–2) represents a nearly tenfold difference, reflecting profound disparities in disease surveillance burden and epidemiological vulnerability.
+
+**6. Takeaway:** Between 2016–2018, epidemic events across the WHO African region were strikingly unequal. Nigeria (~19), Uganda (~19), DRC (~17), and Kenya (~16) collectively dominated outbreak counts, each experiencing highly diverse disease portfolios including cholera, Lassa fever, meningitis, yellow fever, and Ebola. Cholera (brown) appears consistently across the highest-burden countries, reflecting persistent water and sanitation challenges. DRC's burden notably includes Ebola and multiple haemorrhagic fevers. The diversity of disease types within each high-burden country — often 8–12 distinct pathogens — signals fragile health systems struggling simultaneously across multiple infectious disease threats, underscoring the urgent need for integrated, multi-disease surveillance and response capacity rather than single-disease vertical programmes.",1,1,1,1,0,1,0,1,0,0,6,1,1,1,1,0,1,0,0,0,0,5,0,0,0,1,0,1,0,1,1,4,1,0,0,1,0,1,0,1,1,5
+14,bar,complex,"Figure 7: Categorised Roche S antibody levels by N antibody status and month, November 2022 to October 2024.","Figure 7 shows monthly categorised S levels over the past two years by N antibody status. N- antibody positive individuals are those likely to have experienced past infection. Antibody levels will be influenced by vaccination history, time since infection, variant and severity of infection, as well as individual factors such as underlying health conditions, age and genetics. N-antibody negative individuals are those who have either: never experienced infection, or who experienced infection in the past but made little N antibody response, or whose N antibody levels have waned into the negative range over time. In both panels of Figure 6, increased S- antibody levels can be seen around the time of the autumn 2022 and autumn 2023 vaccination campaigns, during the months of October to January. S antibody levels were also high during February 2024. Comparing the left and right panels, the overall higher profile of antibody levels in those who are N antibody positive is evident; vaccination post infection, breakthrough infection following vaccination and re-infection are all expected to boost existing S antibody levels.",viz14.jpg,"1. **Chart type:** Faceted 100% stacked horizontal bar chart comparing Roche S antibody level categories by month and N antibody status (N Negative vs N Positive).
+
+2. **Axes:** The y-axis lists months from November 2022 to October 2024. The x-axis shows the percentage of individuals in each Roche S antibody level category, ranging from 0% to 100%. Colors represent antibody concentration groups.
+
+3. **Main trend:** Over time, both N-negative and N-positive groups show increasing proportions of higher Roche S antibody levels, especially in the 10,000–25,000 and 25,000+ categories.
+
+4. **Key values:** The highest proportions occur in the 25,000+ category, reaching roughly 30–35% in several 2024 months, particularly among N-positive individuals. The lowest proportions are in the <0.8 negative category, remaining close to 0% throughout the study period.
+
+5. **Comparison:** N-positive individuals consistently show larger proportions in the highest antibody categories compared with N-negative individuals across most months.
+
+6. **Takeaway:** This chart suggests that antibody levels increased substantially between late 2022 and late 2024, likely reflecting ongoing vaccination, infection exposure, or both. In both groups, the lower antibody categories (<25 and 25–<250) became very small over time, while mid-to-high categories dominated. N-positive individuals, who likely had previous infection exposure, more frequently reached antibody levels above 25,000 compared with N-negative individuals. By mid-to-late 2024, most participants in both panels had antibody levels above 2,500, indicating widespread strong immune responses in the population.","**1. Chart Type:** Dual paired stacked horizontal bar chart comparing antibody level distributions across two groups over 24 months.
+
+**2. Axes:** Y-axis: Month (November 2022–October 2024); X-axis: Percentage of individuals (0–100%) in each Roche S antibody level category (seven colour-coded bands from <0.8 to 25,000+).
+
+**3. Main Trend:** Both N-negative and N-positive groups show consistently high Spike antibody levels throughout, with N-positive individuals displaying a notably higher proportion of very high antibody levels (25,000+) across all time points.
+
+**4. Key Values:** Highest — N-positive group with ~40–50% in the 25,000+ category by late 2024; Lowest — negligible proportions (<0.8, negative) in both groups throughout.
+
+**5. Comparison:** N-positive individuals (those with prior COVID-19 infection) consistently show larger 25,000+ segments (dark purple) than N-negative individuals — reflecting the well-established ""hybrid immunity"" boost from combining vaccination with natural infection.
+
+**6. Takeaway:** This chart tracks COVID-19 Spike antibody levels monthly over two years, stratified by prior infection status. N-negative individuals — vaccinated but never infected — maintain substantial antibody levels throughout, with most falling in the 2,500–25,000 range. N-positive individuals — those with hybrid immunity from both vaccination and natural infection — consistently show higher proportions in the highest antibody category (25,000+), particularly from 2023 onward. Importantly, neither group shows meaningful waning into negative or very low antibody categories, suggesting vaccination-derived immunity remains durable across the entire surveillance period. Low-level antibody categories (green, yellow) increase slightly toward late 2024 in N-negative individuals, potentially signalling gradual waning requiring monitoring.",1,1,1,0,1,0,0,1,0,0,5,1,1,1,0,1,0,0,1,0,0,5,1,0,1,1,1,1,0,1,1,7,1,0,1,1,0,1,0,1,1,6
+15,bar,complex,Figure 2. Final ranking of antibiotic-resistant bacteria  Mean (SD) pathogen weights were derived by the software from the survey participants' preferences. The segments represent the contribution of each criterion to each pathogen's final weight. CR=carbapenem resistant. 3GCR=third-generation cephalosporin resistant. VR=vancomycin resistant. MR=meticillin resistant. ClaR=clarithromycin resistant. FQR=fluoroquinolone resistant. PNS=penicillin non-susceptible. AmpR=ampicillin resistant,"The final ranking of the 20 bacteria and related 25 patterns of acquired resistance was computed by averaging each bacterium's total score across the entire group of participants. These scores ranged from 91·0% (SD 5·2) for the top-ranked bacterium (carbapenem-resistant Acinetobacter baumannii) to 22·1% (6·7) for the bottom-ranked bacterium (vancomycin-resistant Staphylococcus aureus). Antibiotic-resistant Gram-negative bacteria rated at the highest level on the four most heavily weighted criteria. The highest-ranked Gram-positive bacteria were vancomycin-resistant Enterococcus faecium at 54·5% (7·2) and meticillin-resistant S aureus at 52·7% (11·2). Among bacteria typically responsible for community-acquired infections, the highest ranked were clarithromycin-resistant Helicobacter pylori at 44·8% (10·1) and fluoroquinolone-resistant Campylobacter spp at 41·0% (7·8), Neisseria gonorrhoeae at 35·8% (8·9), and Salmonella typhi at 37·6% (9·2).",viz15.jpg,"1. **Chart type:** Horizontal stacked bar chart ranking antibiotic-resistant bacteria by overall weighted priority score.
+
+2. **Axes:** The y-axis lists antibiotic-resistant bacteria and resistance types (for example, carbapenem-resistant or fluoroquinolone-resistant strains). The x-axis shows “Final weight (%)”, representing the overall priority score assigned to each pathogen. Colored bar segments show contributions from criteria such as mortality, treatability, transmissibility, and healthcare burden.
+
+3. **Main trend:** Carbapenem-resistant and third-generation cephalosporin-resistant bacteria rank highest because they score strongly across multiple clinical and public health risk factors.
+
+4. **Key values:** *Acinetobacter baumannii*, carbapenem-resistant (CR), has the highest final weight at 91.0%, while vancomycin-resistant *Staphylococcus aureus* has the lowest at 22.1%.
+
+5. **Comparison:** The most striking difference is between carbapenem-resistant *Acinetobacter baumannii* (91.0%) and vancomycin-resistant *Staphylococcus aureus* (22.1%), a gap of nearly 69 percentage points.
+
+6. **Takeaway:** This chart identifies which antibiotic-resistant bacteria pose the greatest overall threat. Carbapenem-resistant *Acinetobacter baumannii* and *Pseudomonas aeruginosa* rank highest at 91.0% and 81.7%, mainly due to poor treatability, high mortality, and strong healthcare burden contributions. Resistant *Escherichia coli* and *Klebsiella* species also score highly around 76.5%, reflecting their widespread prevalence and transmission risk. Lower-ranked organisms, such as resistant *Shigella* species (22.9%) and vancomycin-resistant *Staphylococcus aureus* (22.1%), contribute less across these combined criteria. Overall, the figure highlights that multidrug-resistant hospital-associated Gram-negative bacteria are considered the highest global priority for surveillance, infection control, and development of new antibiotics.","**1. Chart Type:** Stacked horizontal bar chart ranking 25 antibiotic-resistant bacteria across ten weighted criteria.
+
+**2. Axes:** Y-axis: Antibiotic-resistant bacterial pathogen (25 organisms); X-axis: Final composite weight percentage (0–100%), with each colour segment representing one of ten priority criteria.
+
+**3. Main Trend:** Carbapenem-resistant organisms dominate the highest priority rankings, with scores declining progressively through third-generation cephalosporin-resistant to fluoroquinolone-resistant pathogens at the lower end.
+
+**4. Key Values:** Highest — Carbapenem-resistant *Acinetobacter baumannii* at 91.0% (±5.2%); Lowest — Vancomycin-resistant *Staphylococcus aureus* at 22.1% (±6.7%).
+
+**5. Comparison:** Carbapenem-resistant *Acinetobacter baumannii* (91.0%) scores more than four times higher than vancomycin-resistant *S. aureus* (22.1%) — reflecting vastly different treatability, mortality, and prevention profiles between the highest and lowest priority pathogens.
+
+**6. Takeaway:** This WHO-derived priority ranking reveals that carbapenem-resistant pathogens — *Acinetobacter baumannii* (91%), *Pseudomonas aeruginosa* (81.7%), and multiple *Enterobacteriaceae* — represent the most critical global antibiotic resistance threats, driven by poor treatability, high mortality, and limited pipeline options (red segments prominent throughout). MRSA (52.7%) and vancomycin-resistant *Enterococcus faecium* (54.5%) occupy the middle tier. Fluoroquinolone-resistant organisms like *Campylobacter* (41%) and *Salmonella* Typhi (37.6%) rank lower, reflecting greater remaining treatment options. The consistent contribution of ""preventability in community settings"" (red/orange) across top-ranked pathogens underscores that infection prevention — not just new antibiotics — must be central to tackling the most dangerous resistant organisms.",1,1,1,1,1,1,0,1,0,0,7,1,1,1,1,1,1,0,1,0,0,7,0,0,0,1,0,0,1,1,1,4,0,1,0,1,0,0,0,1,1,4
+16,line,simple,Smallpox cases reported worldwide,Global data on the number of smallpox cases is shown in the chart. Shown here is the number of reported smallpox cases worldwide from 1920 until the last case in 1977.  The reported number of smallpox cases between 1920 and 1978 amounted to 11.6 million cases,viz16.jpg,"**1. Chart type:**
+This is a **line chart** showing the number of reported cases of Smallpox worldwide over time.
+
+**2. Axes:**
+
+* **X-axis:** Year (from **1920 to 2023**)
+* **Y-axis:** Number of reported smallpox cases (**cases per year**, ranging from **0 to about 700,000 cases**)
+
+**3. Main trend:**
+The overall pattern shows large fluctuations in cases early on, followed by a sharp decline to **zero cases by the late 1970s**, where it remains.
+
+**4. Key values:**
+
+* **Highest value:** Around **630,000 cases worldwide** in the **early 1950s**.
+* **Lowest value:** **0 cases worldwide** from roughly **1980 onward**.
+
+**5. Comparison:**
+The most meaningful difference is between the **1950s peak (over 600,000 cases)** and the **complete elimination of cases after the late 1970s**, showing a dramatic global reduction.
+
+**6. Takeaway:**
+This chart demonstrates how global vaccination campaigns led to the eradication of smallpox. Cases were consistently high—often between **100,000 and 400,000 per year**—until the mid-20th century, with major spikes above **600,000**. After intensified vaccination efforts in the 1960s and 1970s, cases dropped rapidly, reaching **zero by about 1980** and staying there through **2023**, marking one of the greatest public health achievements in history.","1. Chart Type: Line chart tracking a single variable over time.
+2. Axes: X-axis: Year (1916–2023); Y-axis: Number of reported smallpox cases (0–700,000).
+3. Main Trend: Smallpox cases fluctuated at high levels throughout the early-to-mid 20th century before dropping sharply to near-zero after 1979.
+4. Key Values: Highest — approximately 630,000 cases around 1949; Lowest — effectively 0 cases from 1980 onward.
+5. Comparison: The most striking difference is between the 1949 peak (~630,000 cases) and 1980 onwards (0 cases) — a complete elimination of the disease within roughly 30 years.
+6. Takeaway: Despite decades of persistent and volatile smallpox outbreaks — regularly exceeding 200,000–400,000 cases annually — a coordinated global vaccination campaign drove cases to zero by around 1979–1980. This makes smallpox the only human infectious disease ever fully eradicated, representing one of medicine's greatest public health achievements. Reported figures likely underestimate true historical case counts due to limited testing infrastructure.",1,1,1,1,1,1,1,1,0,1,9,1,0,1,1,1,1,1,1,1,1,9,1,0,0,0,0,0,1,1,0,3,0,1,0,0,0,0,0,0,0,1
+17,line,simple,"Tuberculosis deaths in the United States, 1953 to 2022","In 1952, almost 20,000 people were dying from tuberculosis in the US every year. A decade later, this had more than halved. And by the 1980s, deaths had dropped below 2,000. You can see this decline in the chart. By the late 1980s, the path to beating TB hit a roadblock (which I’ll cover in a separate article). Despite those setbacks, deaths in the US continued to decline and now fluctuate between 500 and 600 per year.",viz17.jpg,"**1. Chart type:**
+This is a **line chart** showing annual deaths caused by Tuberculosis in the United States over time.
+
+**2. Axes:**
+
+* **X-axis:** Year (**1953 to 2022**)
+* **Y-axis:** Number of tuberculosis deaths (**deaths per year**, ranging from **0 to about 20,000 deaths**)
+
+**3. Main trend:**
+The overall pattern shows a **steady and dramatic decline in tuberculosis deaths** from the 1950s to recent years, with only small fluctuations after 1980.
+
+**4. Key values:**
+
+* **Highest value:** About **19,500 deaths** in **1953**.
+* **Lowest value:** About **450–500 deaths** in the **mid-2010s**.
+
+**5. Comparison:**
+The most meaningful difference is between **1953 (about 19,500 deaths)** and **recent years (around 500–600 deaths)**, representing a reduction of more than **18,000 deaths per year**.
+
+**6. Takeaway:**
+This chart shows major progress in controlling tuberculosis in the United States. Deaths fell sharply from nearly **20,000 per year in 1953** to below **3,000 by the late 1970s**, likely due to improved antibiotics, screening, and public health programs. After 1980, deaths continued to decline more slowly, reaching roughly **500 deaths annually** by the 2010s. Although tuberculosis still causes deaths today, the long-term decline highlights how sustained medical treatment and prevention strategies can dramatically reduce mortality from infectious diseases.","**1. Chart Type:** Line chart tracking a single variable over time.
+
+**2. Axes:** X-axis: Year (1953–2022); Y-axis: Number of tuberculosis deaths (0–20,000).
+
+**3. Main Trend:** TB deaths in the US declined steeply and continuously from nearly 20,000 in 1953 to under 1,000 by 2022.
+
+**4. Key Values:** Highest — approximately 19,700 deaths in 1953; Lowest — approximately 500–600 deaths around 2020–2022.
+
+**5. Comparison:** Between 1953 (~19,700 deaths) and 1980 (~2,800 deaths), deaths fell by roughly 86% in just 27 years — the steepest and most impactful period of decline.
+
+**6. Takeaway:** Driven by antibiotic treatment and improved public health infrastructure, US tuberculosis deaths plummeted dramatically from nearly 20,000 in 1953 to below 1,000 by 2022 — a reduction exceeding 95%. A notable step-drop appears around 1979, explained not by a sudden health breakthrough but by a methodological change: late-stage TB complications were reclassified and excluded from TB death counts. Despite this, the overall downward trajectory remains one of America's most significant public health achievements.",1,1,1,1,1,1,1,1,0,1,9,1,1,1,1,1,1,0,1,0,0,7,1,0,0,0,0,0,0,1,0,2,0,0,0,1,0,0,0,1,1,3
+18,line,simple,"Figure 2. COVID-19 test positivity, 7-day moving average, 30 December 2024 to 29 June 2025","COVID-19 cases saw 2 peaks over the first half of 2025. Cases numbers maintained a steady rate until March, experienced a small peak in April then after an initial decline increased again through May. The higher of the 2 peaks in case numbers occurred in June at around 1,365 weekly cases. Positivity saw an overall increase over the study period, having a small peak in April (5.8%) and a larger peak in June (7.1%), and then decreased.",viz18.jpg,"1. Chart type:
+This is a line chart showing changes over time in test positivity for COVID-19 using a 7-day moving average (a smoothed daily average).
+2. Axes:
+X-axis: Date (30 December 2024 to 29 June 2025)
+Y-axis: Test positivity (percentage (%) of tests that were positive, from 0% to about 7%)
+3. Main trend:
+The overall pattern shows a steady rise in COVID-19 test positivity from January to late June, followed by a short decline at the end.
+4. Key values:
+Highest value: About 6.9–7.0% positivity in late June 2025.
+Lowest value: About 2.2% positivity in mid-January 2025.
+5. Comparison:
+The most meaningful difference is between mid-January (about 2.2%) and late June (about 7%), an increase of roughly 4.5 percentage points.
+6. Takeaway:
+This chart shows that COVID-19 positivity gradually increased during the first half of 2025, indicating that a larger share of tests were returning positive results over time. Positivity started near 2–2.5% in January, rose steadily through March and April to about 4–5%, and reached its peak close to 7% in late June, suggesting growing transmission during this period. The drop to around 5.4% by the end of June may indicate early signs of improvement, but levels remained higher than at the start of the year, highlighting the importance of ongoing monitoring and response.","**1. Chart Type:** Line chart using a 7-day moving average to smooth daily fluctuations over time.
+
+**2. Axes:** X-axis: Date (January 2025 – late June 2025); Y-axis: COVID-19 test positivity rate (0%–above 6%).
+
+**3. Main Trend:** Test positivity rose steadily and almost tripled from ~2.3% in early January to a peak of ~7% in late June, before dropping sharply at the chart's end.
+
+**4. Key Values:** Highest — approximately 7% positivity in late June 2025; Lowest — approximately 2.2% in early January 2025.
+
+**5. Comparison:** Between January (~2.3%) and late June (~7%), positivity increased by roughly 200% — indicating approximately three times more positive tests proportionally by summer.
+
+**6. Takeaway:** COVID-19 transmission increased substantially across the first half of 2025, with test positivity climbing almost continuously from 2.3% in January to a peak near 7% in late June — suggesting a significant summer wave. The sharp drop at the very end of the period likely reflects a data lag or reporting anomaly rather than a genuine sudden improvement, and should be interpreted cautiously.",1,1,1,1,1,1,0,1,0,0,7,1,1,1,1,1,1,0,1,0,0,7,0,0,0,1,0,0,0,1,1,3,0,0,0,1,0,0,0,1,1,3
+19,line,simple,"Fig. 1. Overall annual trends for PAD- and COPD-related mortality. PAD, peripheral artery disease; COPD, chronic obstructive pulmonary disease; APC, annual percent change; CI, confidence interval.","The AAMRs declined by 22.8% from 1999 to 2023. Between 1999 and 2001, the AAMR declined (APC: 4.47; 95% CI: −3.76, 13.41). Afterward, the decline steepened from 2001 to 2017 (APC: −3.06∗, 95% CI: −3.41, −2.72). The AAMR reported a significant increase from 2017 to 2021 (APC: 5.72∗, 95% CI: 1.85–9.73) and terminated in 2023, with a decline (APC: −4.58; 95% CI: −11.28, 2.61) (Fig. 1) (Supplementary Fig. 3) (Supplementary Table 1) (Table II). A sensitivity analysis was conducted to assess the impact of COVID-19 on overall trends. The analysis revealed an insignificant incremental trend from 2019 onward, with an APC of 1.01, 95% CI −3.23 to 5.58. This indicated that the intermittent peak observed during 2017 and 2021 might have been influenced by pandemic factors.",viz19.jpg,"**1. Chart type:**
+This is a **line chart** showing yearly mortality trends related to Peripheral Artery Disease (PAD) and Chronic Obstructive Pulmonary Disease (COPD).
+
+**2. Axes:**
+
+* **X-axis:** Year (**1999 to 2023**)
+* **Y-axis:** **Age-adjusted mortality rate per 100,000 individuals** (values range from about **0 to 10 deaths per 100,000 people**)
+
+**3. Main trend:**
+The overall pattern shows a **gradual decline in mortality rates from the early 2000s to the mid-2010s, followed by small increases around 2020–2021 and a slight drop afterward**.
+
+**4. Key values:**
+
+* **Highest value:** About **7.3 deaths per 100,000 individuals** around **2000**.
+* **Lowest value:** About **4.6 deaths per 100,000 individuals** around **2017**.
+
+**5. Comparison:**
+The most meaningful difference is between **2000 (about 7.3 per 100,000)** and **2017 (about 4.6 per 100,000)**, a drop of roughly **2.7 deaths per 100,000**.
+
+**6. Takeaway:**
+This chart shows steady improvement in mortality related to PAD and COPD over two decades. Rates decreased from about **6.5–7.3 per 100,000** in the early 2000s to below **5 per 100,000** by **2014–2017**, suggesting better disease management and prevention. However, there was a noticeable rise around **2020–2021** to about **5.4–5.5 per 100,000**, followed by a slight decline to roughly **5.0 per 100,000** in **2023**. This pattern indicates long-term progress but also highlights recent fluctuations that may reflect healthcare disruptions or changing risk factors.","**1. Chart Type:** Line chart displaying age-adjusted mortality rates over time with annotated trend segments.
+
+**2. Axes:** X-axis: Year (1999–2023); Y-axis: Age-adjusted mortality rate per 100,000 individuals (0–10).
+
+**3. Main Trend:** Combined PAD- and COPD-related mortality declined overall from ~6.5 in 1999 to ~5.2 in 2023, with a notable temporary rise between 2017–2021.
+
+**4. Key Values:** Highest — approximately 7.4 per 100,000 in 2000; Lowest — approximately 4.7 per 100,000 around 2017–2019.
+
+**5. Comparison:** The most meaningful contrast is the sustained decline from 7.4 (2000) to 4.7 (2017) — a reduction of ~36% — followed by an unexpected reversal rising back to ~5.5 by 2021.
+
+**6. Takeaway:** Mortality from PAD and COPD combined fell significantly between 2001–2017 (statistically significant annual decline of 3.06%), reflecting advances in treatment and care. However, 2017–2021 saw a statistically significant reversal (+5.72% annually), likely influenced by COVID-19's impact on chronic disease management. Encouragingly, rates resumed declining after 2021, suggesting partial recovery, though 2023 levels (~5.2) remain higher than the pre-2020 low.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+20,line,simple,"Figure 1: The infant mortality rate in England and Wales appears to be stabilising, following a sustained decrease since 1980",he child and infant mortality rate followed a declining trend since records began in the 1980s but has become more stable in recent years.,viz20.jpg,"**1. Chart type:**
+This is a **line chart** showing changes over time in the Infant Mortality Rate in England and Wales.
+
+**2. Axes:**
+
+* **X-axis:** Year (**1980 to 2022**)
+* **Y-axis:** **Infant deaths per 1,000 live births** (rates range from **0 to about 14 deaths per 1,000 live births**)
+
+**3. Main trend:**
+The overall pattern shows a **steady long-term decline in infant mortality from 1980, followed by a period of stabilization in recent years**.
+
+**4. Key values:**
+
+* **Highest value:** About **12 deaths per 1,000 live births** in **1980**.
+* **Lowest value:** About **3.6–3.7 deaths per 1,000 live births** around **2014–2015**.
+
+**5. Comparison:**
+The most meaningful difference is between **1980 (about 12 per 1,000)** and **2014–2015 (about 3.6–3.7 per 1,000)**, showing a reduction of roughly **8 deaths per 1,000 live births**.
+
+**6. Takeaway:**
+This chart highlights major improvements in infant survival over four decades in England and Wales. Rates dropped sharply from about **12 deaths per 1,000 live births in 1980** to around **6 per 1,000 by the mid-1990s**, reflecting advances in neonatal care, maternal health, and public health services. After reaching a low of about **3.6–3.7 per 1,000 around 2014–2015**, the rate has remained relatively stable, fluctuating slightly between **3.6 and 4.0 per 1,000** through **2022**, suggesting progress has slowed and improvements are now leveling off.","**1. Chart Type:** Line chart tracking a single variable over time.
+
+**2. Axes:** X-axis: Year (1980–2022); Y-axis: Infant deaths per 1,000 live births (0–14).
+
+**3. Main Trend:** Infant mortality in England and Wales declined steeply and consistently from 1980 before flattening out at around 4 deaths per 1,000 live births from approximately 2014 onward.
+
+**4. Key Values:** Highest — approximately 12 deaths per 1,000 live births in 1980; Lowest — approximately 3.7 per 1,000 around 2014–2016.
+
+**5. Comparison:** Between 1980 (~12 per 1,000) and 2014 (~3.7 per 1,000), infant mortality fell by nearly 70% in just 34 years — the most significant sustained improvement in the dataset.
+
+**6. Takeaway:** England and Wales made extraordinary gains in infant survival between 1980 and 2014, reducing deaths from 12 to approximately 3.7 per 1,000 live births — a nearly 70% improvement attributable to better neonatal care, vaccination, and maternal health services. However, from 2014 through 2022, rates have plateaued stubbornly around 4 per 1,000, suggesting that the easiest gains have been achieved and that persistent structural inequalities — including deprivation and unequal access to care — may now be the primary barrier to further progress.",1,1,1,1,1,1,1,1,0,1,9,1,1,1,1,1,1,1,1,0,1,9,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1
+21,line,moderate,"Figure 1: Of the four UK constituent countries, rates of alcohol-specific deaths increased in England and Wales in 2023","England and Wales had an increase in the rate of alcohol-specific deaths (15.0 and 17.7 deaths per 100,000 people, respectively) compared with 2022. Scotland and Northern Ireland continued to have the highest rate of alcohol-specific deaths (22.6 and 18.5 deaths per 100,000 people, respectively), with the rate in Scotland remaining unchanged and a decrease in Northern Ireland compared with 2022.",viz21.jpg,"1. Chart type:
+This is a multi-line chart comparing alcohol-related death rates across the four countries of the United Kingdom: England, Wales, Scotland, and Northern Ireland.
+2. Axes:
+X-axis: Year (2001 to 2023)
+Y-axis: Age-standardised alcohol-specific death rate per 100,000 people (ranging from 0 to about 30 deaths per 100,000)
+3. Main trend:
+The overall pattern shows that Scotland consistently had the highest alcohol-related death rates, while England had the lowest, with recent increases in England and Wales by 2023.
+4. Key values:
+Highest value: About 29 deaths per 100,000 people in Scotland around 2003–2005.
+Lowest value: About 9 deaths per 100,000 people in England around 2001–2002.
+5. Comparison:
+The most meaningful difference is between Scotland’s peak (about 29 per 100,000) and England’s lowest level (about 9 per 100,000), a gap of roughly 20 deaths per 100,000.
+6. Takeaway:
+This chart shows clear regional differences in alcohol-related deaths across the UK. Scotland had the highest rates throughout the period, starting near 27–29 per 100,000 in the early 2000s, falling to about 19 per 100,000 around 2013, then rising again to roughly 23 per 100,000 by 2023. England and Wales generally had lower rates, but both increased after 2019, reaching about 15–17 per 100,000 in 2023. Northern Ireland showed moderate but fluctuating levels, peaking near 19 per 100,000. Overall, the recent upward trend suggests growing concern about alcohol-related harm in several UK regions.","1. Chart Type: Multi-line chart comparing five groups over time.
+2. Axes: X-axis: Year (2001–2023); Y-axis: Age-standardised alcohol-specific death rate per 100,000 people (0–30).
+3. Main Trend: Scotland consistently recorded the highest alcohol-specific death rates throughout, while all four nations saw notable rises post-2019, likely reflecting COVID-19's impact on alcohol-related harm.
+4. Key Values: Highest — Scotland at approximately 27–28 per 100,000 in the early 2000s; Lowest — England at approximately 9–10 per 100,000 around 2001–2010.
+5. Comparison: Scotland's rate (~22 per 100,000 in 2023) remains roughly double England's (~17 per 100,000), highlighting a persistent and stark geographic inequality in alcohol-related mortality across the UK.
+6. Takeaway: All four UK nations experienced a sharp rise in alcohol-specific deaths after 2019, coinciding with the COVID-19 pandemic period when alcohol consumption and harmful drinking patterns increased. Scotland, despite implementing minimum unit pricing in 2018, still maintains the highest rate (~22 per 100,000) by 2023, though its earlier peak of ~28 suggests some policy impact. England and Wales both rose noticeably in 2023, warranting close monitoring as a potential emerging public health concern.",1,1,1,0,1,1,1,1,1,0,8,1,1,1,1,0,1,0,0,0,0,5,0,0,0,0,0,1,0,0,1,2,1,0,0,0,1,1,1,1,1,6
+22,line,moderate,"Figure 4.a. Seven-day rolling average age-adjusted annualised mortality rate** (per 100,000 population) in laboratory-confirmed cases of COVID-19 by IMD quintile, from week 27 onwards*†","From 29 June 2020 onwards, the highest recorded number of daily deaths was 1,504 deaths on 19 January 2021., Relative deprivation was assessed using quintiles of the IMD linked to residential lower super output area, with IMD 1 representing the most deprived. Overall, the age-adjusted annualised mortality rate is highest among those living in the most deprived areas, with a gradual decrease in mortality rate seen with decreasing deprivation.",viz22.jpg,"1. Chart type:
+This is a multi-line time-series chart showing mortality trends for COVID-19 across five IMD (Index of Multiple Deprivation) quintiles, representing different socioeconomic groups.
+2. Axes:
+X-axis: Date of death (June 2020 to May 2021)
+Y-axis: Seven-day rolling average age-adjusted annualised mortality rate per 100,000 population (ranging from 0 to about 1,200 deaths per 100,000)
+3. Main trend:
+All groups show two major mortality waves, with consistently higher death rates in the most deprived groups compared with the least deprived groups.
+4. Key values:
+Highest value: About 1,180 deaths per 100,000 in Quintile 1 (most deprived) during January 2021.
+Lowest value: Near 0–10 deaths per 100,000 across all quintiles during August–September 2020.
+5. Comparison:
+The most meaningful difference is between Quintile 1 (most deprived, ~1,180 per 100,000) and Quintile 5 (least deprived, ~650 per 100,000) at the January 2021 peak.
+6. Takeaway:
+This chart highlights clear health inequalities during the pandemic. Mortality rates rose sharply during two waves, first in late 2020 and then peaking in January 2021. The most deprived group (Quintile 1) consistently experienced the highest mortality, reaching about 1,180 per 100,000, while the least deprived group (Quintile 5) peaked much lower, around 650 per 100,000. After February 2021, mortality declined rapidly across all groups. The persistent gap between quintiles shows that socioeconomic deprivation was strongly linked to higher COVID-19 death rates.","1. Chart Type: Multi-line chart using a 7-day rolling average, comparing five deprivation groups over time.
+2. Axes: X-axis: Date of death (June 2020 – May 2021); Y-axis: Age-adjusted annualised mortality rate per 100,000 population (0–1,200).
+3. Main Trend: Across all deprivation groups, COVID-19 mortality peaked sharply in January–February 2021, with the most deprived communities (Quintile 1) consistently suffering the highest death rates throughout.
+4. Key Values: Highest — Quintile 1 (most deprived) at approximately 1,175 per 100,000 in late January 2021; Lowest — Quintile 5 (least deprived) at near 0 during summer 2020.
+5. Comparison: At the January 2021 peak, Quintile 1 (~1,175) recorded nearly double the mortality of Quintile 5 (~640), demonstrating a stark deprivation-driven inequality in COVID-19 deaths.
+6. Takeaway: This chart powerfully illustrates that COVID-19 did not affect all communities equally. The most deprived populations (Quintile 1) faced consistently higher mortality across both waves, peaking at ~1,175 per 100,000 — nearly twice that of the least deprived (Quintile 5, ~640). This persistent gap across the entire period reflects deeper structural inequalities including overcrowded housing, occupational exposure, and poorer underlying health, meaning deprivation was a significant independent driver of COVID-19 mortality risk.",1,1,1,1,0,1,1,1,1,0,8,1,1,1,1,0,1,1,1,0,0,7,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,1,0,1,1,3
+23,line,moderate,"Drug overdose death rate by drug type, United States, 1999 to 2020","Death rates from illicit drugs are highest in the United States. A large driver of this has been a steep rise in opioid deaths over the last decade.  In the chart, we see death rates in the United States from overdoses of different drugs. Since 2010, death rates from opioids have more than tripled.  In 2017, the US Department of Health and Human Services declared the opioid crisis a public emergency.",viz23.jpg,"1. Chart type:
+This is a multi-line chart comparing drug overdose death rates by drug type in the United States.
+2. Axes:
+X-axis: Year (1999 to 2020)
+Y-axis: Drug overdose death rate per 100,000 people (ranging from 0 to about 25 deaths per 100,000)
+3. Main trend:
+The overall pattern shows a sharp increase in overdose deaths over time, especially driven by synthetic opioids.
+4. Key values:
+Highest value: About 22 deaths per 100,000 people for any opioids in 2020 (with synthetic opioids alone reaching about 17–18 per 100,000).
+Lowest value: About 0.2 deaths per 100,000 people for synthetic opioids around 1999–2000.
+5. Comparison:
+The most meaningful difference is between synthetic opioids rising from about 0.2 per 100,000 in 1999 to roughly 17–18 per 100,000 in 2020, showing a dramatic surge.
+6. Takeaway:
+This chart highlights the growing severity of drug overdose deaths, particularly linked to synthetic opioids such as Fentanyl. Overall opioid deaths rose steadily from about 3 per 100,000 in 1999 to over 21 per 100,000 by 2020. Synthetic opioids showed the fastest growth, increasing sharply after 2013 and surpassing deaths from Heroin, Cocaine, and prescription opioids. While prescription opioid deaths increased earlier in the 2000s and later stabilized around 4–5 per 100,000, the rapid rise in synthetic opioid deaths became the main driver of the overdose crisis by the late 2010s.","1. Chart Type: Multi-line chart comparing five drug categories over time.
+2. Axes: X-axis: Year (1999–2020); Y-axis: Drug overdose deaths per 100,000 people (0–25).
+3. Main Trend: Opioid-related overdose deaths — particularly from synthetic opioids like fentanyl — surged dramatically after 2013, dwarfing all other drug categories by 2020.
+4. Key Values: Highest — ""Any opioids"" at approximately 21 per 100,000 in 2020; Lowest — Synthetic opioids (fentanyl) near 0 per 100,000 in 1999–2013.
+5. Comparison: Synthetic opioids rose from near 0 in 2013 to ~17.5 per 100,000 by 2020 — an almost vertical explosion within just seven years, making fentanyl the single dominant driver of overdose deaths.
+6. Takeaway: The US opioid crisis evolved in distinct waves. Prescription opioids rose steadily from 1999, plateauing around 5 per 100,000 by 2010. Heroin then surged between 2010–2016. However, the most catastrophic shift began around 2013 when synthetic opioids — predominantly illicit fentanyl — entered the drug supply, skyrocketing to ~17.5 per 100,000 by 2020. This single drug type now accounts for the majority of all opioid deaths, representing an unprecedented public health emergency requiring urgent, targeted intervention.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,0,1,1,1,0,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2
+24,line,moderate,Life expectancy for French people of different ages,"It’s true that child mortality rates were much higher in the past, and their decline has greatly improved overall life expectancy. But in recent decades, improvements in survival at older ages have been even more important.  The chart shows the period life expectancy in France for people of different ages. This measures how long someone at each of those ages would live, on average, if they experienced the death rates recorded in that year. For example, the last point on the top dark-red line shows that an 80-year-old in 2023 could expect to live to about 90, assuming mortality rates stayed as they were in 2023.  As you can see, life expectancy in France has risen at every age. In 1816, someone who had reached the age of 10 could expect to live to 57. By 2023, this had increased to 84. For those aged 65, it rose from 76 in 1816, to 87 in 2023.",viz24.jpg,"1. Chart type:
+This is a multi-line time-series chart showing life expectancy trends for people of different ages in France.
+2. Axes:
+X-axis: Year (1816 to 2023)
+Y-axis: Total life expectancy in years (remaining years expected to live after reaching a given age)
+3. Main trend:
+Life expectancy increased steadily over time for all age groups, with sharp drops during major historical events such as the Spanish Flu and World War II.
+4. Key values:
+Highest value: About 90 years life expectancy for 80-year-olds around 2023.
+Lowest value: About 30 years life expectancy at birth around the late 1800s during major crises.
+5. Comparison:
+The most meaningful difference is between life expectancy at birth rising from about 40 years in the early 1800s to roughly 82 years by 2023, an increase of over 40 years.
+6. Takeaway:
+This chart shows dramatic long-term improvements in survival in France across all ages. Life expectancy at birth rose from about 40 years in the early 1800s to over 80 years by 2023, reflecting advances in sanitation, healthcare, and living standards. Temporary declines occurred during crises such as the Spanish Flu (around 1918) and World War II (1939–1945), especially affecting younger age groups. Older age groups also benefited from progress: for example, people aged 65 could expect about 65 years total lifespan in the 1800s, rising to over 85 years by 2023, showing improved longevity across the entire population.","1. Chart Type: Multi-line chart tracking six age cohorts over time, with annotated historical events.
+2. Axes: X-axis: Year (1816–2023); Y-axis: Total life expectancy in years (30–90 years).
+3. Main Trend: Life expectancy improved substantially across all age groups over two centuries, with younger cohorts showing the greatest gains and all groups experiencing sharp dips during major crises.
+4. Key Values: Highest — 80-year-olds reaching ~90 years total life expectancy by 2023; Lowest — life expectancy at birth dropping to approximately 30 years during the Spanish Flu (~1918).
+5. Comparison: Life expectancy at birth (~30 years at its 1918 nadir vs. ~83 years by 2023) shows the most dramatic improvement — a near tripling — while the 80-year-old cohort remained relatively stable throughout, improving only modestly from ~82 to ~90 years.
+6. Takeaway: This chart reveals that historical gains in French life expectancy were driven predominantly by reducing early-life mortality rather than extending old age. Younger cohorts — especially at birth and age 10 — showed catastrophic drops during the Franco-Prussian War, Spanish Flu, and WWII, yet recovered and climbed dramatically afterward. By 2023, all age groups converge more closely (~78–90 years), reflecting modern medicine's success in tackling infectious disease and childhood mortality, while incremental gains in older cohorts reflect advances in managing age-related conditions.",1,1,0,1,1,1,1,1,0,0,7,1,1,1,1,0,1,1,1,0,0,7,1,1,0,0,0,0,0,1,1,4,1,1,0,0,1,1,0,1,1,6
+25,line,moderate,"Figure 5: Total and untreated hypertension by sex, 2003-2018","The prevalence of hypertension among all adults was 31% in 2003 and remained between 29% and 30% between 2005 and 2014. From 2015 onwards, it has remained relatively stable between 27% and 28%. In 2018, more men (30%) than women (26%) had hypertension. Taking into account the margin of error, it is likely that the proportions in the population with hypertension in 2018 were between 28% and 32% of men and between 24% and 28% of women. 41 The proportion of adults in the population with untreated hypertension decreased from 2003 to 2018 for both men (20% to 13%) and women (16% to 10%).",viz25.jpg,"1. **Chart type:** Multi-line time series chart comparing total and untreated hypertension rates in men and women from 2003 to 2018.
+
+2. **Axes:** The x-axis shows years from 2003 to 2018. The y-axis shows percentage (%) of adults aged 16 and over with hypertension or untreated hypertension.
+
+3. **Main trend:** Hypertension rates remained consistently higher in men than women, while untreated hypertension gradually declined in both sexes over time.
+
+4. **Key values:** The highest value is men with all hypertension at about 33% in 2005. The lowest value is women with untreated hypertension at about 9.5% in 2013.
+
+5. **Comparison:** The largest consistent difference is between men’s and women’s untreated hypertension, with men typically around 4–6 percentage points higher throughout the study period.
+
+6. **Takeaway:** This chart shows that hypertension remained common over the 15-year period, especially among men. Men’s overall hypertension stayed near 30–33%, while women’s levels were lower at roughly 25–29%. Untreated hypertension decreased steadily, suggesting improvements in diagnosis or treatment access. Men’s untreated hypertension fell from around 20% in 2003 to about 13% in 2018, while women’s declined from roughly 16% to near 10%. Around 2010 onward, untreated hypertension stabilized at lower levels, particularly for women. Despite progress, the chart indicates a persistent sex gap, with men consistently experiencing both higher total hypertension and higher untreated hypertension rates than women.","**1. Chart Type:** Multi-line chart tracking four measures across time with dotted lines indicating estimated earlier values.
+
+**2. Axes:** X-axis: Year (2003–2018); Y-axis: Percentage of adults aged 16+ with hypertension (0–40%).
+
+**3. Main Trend:** While total hypertension prevalence remained broadly stable in both sexes, untreated hypertension declined meaningfully over 15 years, indicating improved treatment uptake rather than reduced disease burden.
+
+**4. Key Values:** Highest — Men: all hypertension at ~33–34% in 2005; Lowest — Women: untreated hypertension at approximately 10% by 2018.
+
+**5. Comparison:** Men's untreated hypertension fell from ~20% (2003) to ~13% (2018) — a 35% relative reduction — while total hypertension remained at ~30–32%, confirming the improvement is driven entirely by better treatment access rather than prevention.
+
+**6. Takeaway:** Between 2003 and 2018, hypertension diagnosis rates remained persistently high — men consistently at ~30–34% and women at ~25–29% — with no meaningful downward trend in total prevalence. However, the encouraging story lies in untreated hypertension: men's untreated rate fell from ~20% to ~13% and women's from ~16% to ~10%, reflecting substantial improvements in detection, prescribing, and medication adherence over this period. Despite this progress, approximately 13% of men and 10% of women still had untreated hypertension by 2018 — representing a significant residual population at elevated cardiovascular risk. Closing this treatment gap, particularly among men who consistently show higher untreated rates, remains a critical public health priority.",1,1,1,1,1,1,0,1,1,1,9,1,1,1,1,1,1,0,1,0,1,8,1,0,0,1,1,0,0,0,0,3,0,0,0,1,1,0,0,1,0,3
+26,line,complex,"Fig 1. Incidence rates of the most prevalent chronic diseases, death, and healthspan based on clinical histories for over 300,000 people, aged 37 to 73 years old, participating in the UK Biobank cohort. Incidence rates for different chronic diseases, healthspan, and death increase at comparable, approximately exponentially rates with age. Disease incidence rates were calculated independently, with participants who develop more than one condition during the follow-up period counting for every disease they have. Healthspan was defined based in the first illness event occurrings. Shaded areas represent 95% confidence intervals.","Older adults developing severe infections often suffer from one or more non-communicable diseases, such as hypertension, ischemic heart disease, stroke, diabetes mellitus, chronic kidney disease, autoimmune, and neurodegenerative diseases: conditions that all increase exponentially at older age, as shown in Fig. 1 As expected, the ﬁrst morbidity incidence rate alsoincreases exponentially with age (see the brown “healthspan”line in Fig. 1), the corresponding doubling time matches the mortality,and the speciﬁc disease risk doubling times.",viz26.jpg,"1. Chart type:
+This is a multi-line chart with shaded uncertainty bands, showing how incidence rates of several diseases change with age.
+2. Axes:
+X-axis: Age (years) — ranging from about 15 to 75 years.
+Y-axis: Log incidence rate (cases per population per year) — a logarithmic scale from about 10⁻⁵ to 10⁻².
+3. Main trend:
+All conditions show increasing incidence with age, meaning disease risk rises as people get older.
+4. Key values:
+Highest value: Healthspan decline reaches about 3 × 10⁻² around age 75.
+Lowest value: Cancer starts near 3 × 10⁻⁵ around age 15–20.
+5. Comparison:
+By age 70–75, cancer incidence (~2 × 10⁻²) is notably higher than COPD (~5 × 10⁻³), showing cancer becomes more common in older age.
+6. Takeaway:
+This chart shows that age is a major driver of disease risk across multiple conditions. For example, cancer rises sharply from about 10⁻⁵ in youth to around 10⁻² in older adults, a roughly 1000-fold increase. Similarly, diseases like stroke, diabetes, and heart conditions (MI, CHF) begin increasing more rapidly after age 40–50. Dementia increases later but accelerates after 60. The consistent upward pattern across all lines indicates that aging strongly increases vulnerability to chronic diseases, emphasizing the importance of prevention and monitoring as people grow older.","1. Chart Type: Multi-line logarithmic chart with confidence bands, tracking nine health outcomes across age.
+2. Axes: X-axis: Age (years, ~15–75). Y-axis: Log incidence rate (cases per population per year, on a logarithmic scale from 10⁻⁵ to 10⁻²).
+3. Main Trend: All nine conditions increase exponentially with age, with Healthspan loss and Cancer consistently recording the highest incidence rates across the entire lifespan.
+4. Key Values: Highest: Healthspan reaches ~10⁻² (the chart's ceiling) by age 70+. Lowest: Cancer incidence at age ~15 approaches 10⁻⁵, the chart's floor.
+5. Comparison: At age 40, Healthspan incidence already sits near 10⁻³ while conditions like CHF and Dementia remain near 10⁻⁴ — a tenfold difference — demonstrating that general health deterioration precedes specific disease onset by decades.
+6. Takeaway: Healthspan loss — representing overall health decline — rises earliest and steepest, pulling away from all specific diseases by age 30, reaching 10⁻² by age 70. Cancer follows as the second most common condition throughout life. Notably, Dementia, CHF, and Diabetes only accelerate meaningfully after age 50, while MI and Stroke cluster together in mid-to-late life, suggesting distinct biological windows where targeted prevention strategies would have maximum impact.",1,1,0,1,1,1,0,1,0,0,6,1,1,0,0,0,1,1,0,0,0,4,1,0,0,1,1,0,0,1,1,5,1,0,0,0,1,1,0,1,0,4
+27,line,complex,"Share of children vaccinated, by vaccine, World","A key measure of this success is the DTP vaccine, which protects against diphtheria, tetanus, and pertussis. Because it requires three doses, DTP coverage is often used as a benchmark for how well countries deliver routine vaccinations. Today, over 80% of infants worldwide — over a hundred million babies — receive the full course annually,",viz27.jpg,"1. Chart type:
+This is a multi-line time series chart, showing global vaccination coverage for different vaccines over time.
+2. Axes:
+X-axis: Year — from 1980 to 2024.
+Y-axis: Vaccination coverage (%) — percentage of one-year-olds vaccinated, from 0% to 100%.
+3. Main trend:
+Vaccination coverage for most vaccines increased substantially over time, especially from the 1980s to early 2000s, then plateaued.
+4. Key values:
+Highest value: Several vaccines (e.g., DTP3, MCV1, HepB3) reach about 85–87% coverage around 2015–2024.
+Lowest value: Newer vaccines like rotavirus (RotaC) start near 0% around 2005–2010.
+5. Comparison:
+Older vaccines like DTP3 and measles (MCV1) maintain high coverage (~80–85%), while newer vaccines like rotavirus remain lower (~55–60% in 2024).
+6. Takeaway:
+This chart shows major global progress in childhood immunization. Coverage for core vaccines such as diphtheria-tetanus-pertussis (DTP3) and measles (MCV1) rose from around 20–40% in 1980 to over 80% by the 2000s, preventing millions of deaths. However, progress has slowed since about 2010, with coverage levels stabilizing around 80–85% and even slight dips in recent years. Newer vaccines, such as pneumococcal (PCV3) and rotavirus, have expanded more recently but still lag behind, reaching only 60–70% or lower. This indicates that while global immunization systems are strong, closing the gap for newer vaccines and improving recent declines remain key public health priorities.","1. Chart Type: Multi-line time series chart tracking nine vaccine coverage rates globally over 44 years.
+2. Axes: X-axis: Year (1980–2024). Y-axis: Vaccine coverage (%, 0–100%) among one-year-olds.
+3. Main Trend: Older vaccines like DTP3 and Measles rapidly achieved high coverage by the late 1980s, while newer vaccines like Rotavirus and Pneumococcal are still climbing steeply toward similar levels.
+4. Key Values: Highest: DTP3, HepB3, and IPV1 all reached approximately 84–86% coverage by ~2019. Lowest: Rotavirus (RotaC) sat at nearly 0% until 2008, reaching only ~65% by 2024.
+5. Comparison: DTP3 achieved ~75% global coverage by 1990 after just a decade, whereas Rotavirus took until 2024 to reach ~65% — highlighting how newer vaccines face slower global rollout despite decades of infrastructure already existing.
+6. Takeaway: Global vaccination coverage has expanded remarkably since 1980, with established vaccines plateauing near 85%. However, all vaccines experienced a visible dip around 2019–2020, likely reflecting COVID-19 disruption to routine immunization. Rotavirus and Pneumococcal vaccines, introduced later, show rapid recent growth but remain 15–20 percentage points behind leading vaccines, representing the most urgent gap in achieving universal childhood immunization coverage worldwide.",1,1,1,1,0,0,0,1,0,1,6,1,1,1,1,0,1,1,0,0,1,7,1,0,1,1,0,1,0,1,0,5,1,0,0,0,0,1,0,1,0,3
+28,line,complex,"Smallpox death rate, 1777 to 1900","First, Swedish data, which pre-dates the smallpox vaccine in 1796, shows the large disease burden and endemicity of smallpox in the 18th century. In peak years, up to 7 out of 1000 people in Sweden died of smallpox, and the endemic disease had volatile outbreaks.  Second, countries that had adopted vaccination legislation earlier saw their smallpox death rates decline more substantially and suffered fewer casualties during the Franco-Prussian War of 1870–1871.  Austria and Belgium — neither of which ever made smallpox vaccination mandatory — still recorded large numbers of smallpox deaths from 1875 onwards, while other European countries had already driven down smallpox fatalities significantly by then.  Even so, smallpox remained endemic in every European country at the end of the 19th century.",viz28.jpg,"1. Chart type:
+This is a multi-line time-series chart comparing Smallpox death rates across several European countries from 1777 to 1900.
+
+2. Axes:
+
+X-axis: Year (1777 to 1900)
+Y-axis: Annual smallpox deaths per 1,000 people (ranging from 0 to over 7 deaths per 1,000 population)
+
+3. Main trend:
+The overall pattern shows that smallpox death rates declined substantially over time, especially after vaccination programs were introduced.
+
+4. Key values:
+
+Highest value: About 7 deaths per 1,000 people in Sweden around 1778.
+Lowest value: Near 0 deaths per 1,000 people in several countries by the late 1800s.
+
+5. Comparison:
+The most meaningful difference is between Sweden’s very high mortality in the late 1700s (around 7 per 1,000) and the near-elimination of deaths across Europe by 1900.
+
+6. Takeaway:
+This chart demonstrates the dramatic reduction in smallpox mortality following the introduction of vaccination. Sweden, which began vaccination in 1801 and made it compulsory in 1816, saw deaths fall from repeated outbreaks above 5–7 deaths per 1,000 people in the late 1700s to almost zero later in the century. Other countries, including England, Prussia, and Scotland, also experienced sharp declines after vaccination policies expanded, although temporary spikes still occurred around the 1870s. By 1900, most countries recorded very low or nearly zero smallpox death rates, showing the major public health impact of vaccination programs.","1. Chart Type: Multi-line chart comparing seven European countries over time.
+2. Axes: X-axis: Year (1777–1900); Y-axis: Annual smallpox deaths per 1,000 people (0–7).
+3. Main Trend: Smallpox death rates fell dramatically across all countries following the introduction and mandating of vaccination, with Sweden — the earliest adopter — showing the sharpest and earliest decline.
+4. Key Values: Highest — Sweden at approximately 7.3 per 1,000 in 1777 (pre-vaccination); Lowest — Sweden, Prussia, and England approaching 0 per 1,000 by the 1890s.
+5. Comparison: Sweden's death rate plummeted from ~7.3 per 1,000 in 1777 to near 0 by the 1820s — directly following its 1801 vaccination programme and 1816 compulsory mandate — the most dramatic national decline in the dataset.
+6. Takeaway: This chart provides compelling historical evidence for vaccination's life-saving impact. Sweden, the earliest adopter of smallpox vaccination (1801, compulsory 1816), saw deaths collapse from the highest recorded rate (~7.3 per 1,000) to near zero within decades. Countries that mandated vaccination later — England (1853), Scotland (1864), Netherlands (1873), Prussia (1874) — followed similar downward trajectories afterward. Notably, Belgium and Austria, which never made vaccination compulsory, experienced a significant outbreak spike around 1870–1872, reinforcing that mandatory vaccination policy directly determined population-level protection.",1,1,1,1,0,1,0,1,0,0,6,1,1,1,1,0,1,0,1,0,0,6,0,0,0,1,1,0,0,1,1,4,1,0,0,1,0,1,0,1,1,5
+29,line,complex,"Figure 10 (a) Changes in the rate of lung cancer deaths and disability‐adjusted life years (DALYs) rate attributed to smoking, 1990–2019.","From 1990 to 2019, the DALYs rate and death rate attributed to smoking of LC showed an increasing trend in patients over 60 years old, and increased significantly in the age group of 75+ years old, while showed a decreasing trend in the population below 60 years old. The age group with the highest DALYs rate increased from 65 to 79 years old in 1990 to 70–84 years old in 2019. 90l;",viz29.jpg,"1. Chart type:
+This is a multi-line time-series chart showing changes in smoking-attributable Lung Cancer disability-adjusted life year (DALY) rates across different age groups.
+
+2. Axes:
+
+X-axis: Year (1990 to 2019)
+Y-axis: DALY rate per 100,000 population (ranging from 0 to about 4,500 DALYs per 100,000 people)
+
+3. Main trend:
+The overall pattern shows that DALY rates increased over time in older age groups, especially among people aged 70 years and above, while younger age groups remained low or declined slightly.
+
+4. Key values:
+
+Highest value: About 4,100 DALYs per 100,000 in the 75–79 years age group around 2010–2011.
+Lowest value: Near 0–20 DALYs per 100,000 in the 30–34 years age group by 2019.
+
+5. Comparison:
+The most meaningful difference is between the 75–79 years group (~4,100 per 100,000) and the 30–34 years group (~0–20 per 100,000), showing a gap of over 4,000 DALYs per 100,000.
+
+6. Takeaway:
+This chart shows that the health burden from smoking-related lung cancer is much greater in older adults. Rates steadily increased in middle-aged and elderly groups from the 1990s, peaking around 2005–2012 in many categories. Adults aged 70–79 years experienced the highest burden, consistently near 3,800–4,100 DALYs per 100,000, while younger adults under 40 years remained below 100 DALYs per 100,000 throughout the period. After 2010, several older age groups showed slight declines or stabilization, suggesting possible benefits from reduced smoking and improved treatment, although the burden remained substantial in older populations.","1. Chart Type: Multi-line time series chart tracking DALYs rates across twelve age groups over 30 years.
+2. Axes: X-axis: Year (1990–2019). Y-axis: DALYs rate per 100,000 population.
+3. Main Trend: Older age groups (75–79, 70–74) carry the highest smoking-attributed disease burden, which rose sharply until ~2005 then plateaued, while younger age groups remain consistently low throughout.
+4. Key Values: Highest: the 75–79 age group peaked at ~4,100 DALYs per 100k around 2010. Lowest: the 30–34 age group remained near 0 DALYs per 100k throughout the entire period.
+5. Comparison: The 75–79 group peaked at ~4,100 DALYs per 100k while the 30–34 group stayed near 0 — a 4,100-point gap — demonstrating that smoking's devastating health consequences accumulate over decades rather than manifesting in younger smokers.
+6. Takeaway: Smoking-attributed disease burden is overwhelmingly concentrated in people aged 65+, with 75–79 and 70–74 year olds bearing the greatest burden. Encouragingly, most older age groups peaked around 2005–2010 and have since slightly declined, suggesting earlier anti-smoking interventions are now reducing harm. However, the 85+ group continues rising, indicating the oldest generation has not yet seen peak impact, making them a critical ongoing concern for healthcare systems.",1,1,1,1,0,0,0,1,0,0,5,1,1,1,1,1,0,0,1,0,0,6,0,0,1,1,0,1,0,1,1,5,0,0,1,1,1,0,0,1,1,5
+30,line,complex,Figure 8. The global trends in age-specific rates of pancreatic cancer DALYs attributable to a high body mass index from 1990 to 2019.,"Age-specific rates of pancreatic cancer attributable to a high BMI increased with age and were higher in every age group in 2019 than in 1990. In 1990, the highest age-specific rates were reached at the age of 65–69 years (>30.0 per 100,000), while in 2019, the values of age rates reached higher values (over 30.0 per 100,000) already at the age of 60, with the highest rate (about 51.0 per 100,000) at the age of 70–74.",viz30.jpg,"1. **Chart type:** Multi-line time series chart showing age-specific pancreatic cancer DALY (Disability-Adjusted Life Year) rates attributable to high body mass index from 1990–2019.
+
+2. **Axes:** The x-axis shows years (1990–2019). The y-axis shows age-specific DALY rates per 100,000 population. Each colored line represents a different age group.
+
+3. **Main trend:** DALY rates generally increased over time across almost all age groups, with the highest burden occurring in older adults.
+
+4. **Key values:** The highest value appears in the 70–74 and 75–79 year groups, reaching about 51 DALYs per 100,000 by 2019. The lowest values are in people under 20 years, remaining close to 0 throughout the study period.
+
+5. **Comparison:** The most meaningful contrast is between older adults aged 70–79 years, whose rates exceeded 50 per 100,000, and younger age groups under 20 years, whose rates stayed near zero.
+
+6. **Takeaway:** This chart shows that the health burden of pancreatic cancer linked to high body mass index rose steadily worldwide between 1990 and 2019, especially in older adults. Rates increased gradually with age, becoming much more pronounced after age 55. For example, the 60–64 year group rose from about 24 to 37 DALYs per 100,000, while the 70–74 and 75–79 groups climbed from the low 30s to above 50. Middle-aged adults also showed moderate increases over time. In contrast, children and young adults had consistently minimal rates. Overall, the figure suggests that excess body weight contributes increasingly to pancreatic cancer burden with advancing age, highlighting the long-term impact of obesity on cancer-related disability and premature death.","**1. Chart Type:** Multi-line chart tracking 18 age-specific groups over time.
+
+**2. Axes:** X-axis: Year (1990–2019); Y-axis: Age-specific DALYs (Disability-Adjusted Life Years) per 100,000 population attributable to high BMI-related pancreatic cancer (0–60).
+
+**3. Main Trend:** BMI-attributable pancreatic cancer burden increased across virtually all age groups between 1990 and 2019, with older age groups showing the steepest and most sustained rises.
+
+**4. Key Values:** Highest — ages 70–74 and 75–79 reaching approximately 51–52 DALYs per 100,000 by 2019; Lowest — ages under 20 remaining near 0 throughout the entire period.
+
+**5. Comparison:** The 70–74 age group rose from ~33 DALYs (1990) to ~51 (2019) — a ~55% increase — versus the under-20 group remaining essentially flat at ~0, illustrating how obesity-driven pancreatic cancer burden is overwhelmingly concentrated in older adults.
+
+**6. Takeaway:** Over three decades, high BMI has driven a consistent and worsening pancreatic cancer burden globally, with the oldest age groups experiencing the greatest absolute increases. Adults aged 70–79 bear the heaviest toll, rising from ~33–37 to ~51–52 DALYs per 100,000 — reflecting decades of cumulative obesity exposure translating into late-life cancer outcomes. Middle-aged groups (55–69) also show meaningful increases from ~16–33 to ~37–46 DALYs. Younger cohorts (<35 years) remain near zero, though their trajectories carry future risk implications as today's younger obese populations age. This pattern strongly argues for urgent, sustained obesity prevention starting in early adulthood to reduce the future pancreatic cancer burden in older populations.",1,1,1,1,0,0,0,1,1,0,6,1,1,1,1,0,0,0,1,0,0,5,0,0,1,1,0,1,0,0,1,4,1,0,1,1,0,1,0,1,1,6
+31,scatter,simple,Fig.1 Correlation between the Brief Autism Mealtime Behaviors Inventory (BAMBI) and the Childhood Autism Rating Scale (CARS),"A  significant moderate correlation was observed between the mealtime behavior and CARS scales (r = 0.4 and p = 0.02, shown in Fig. 1).",viz31.jpg,"1. Chart type:
+This is a scatter plot with a fitted trend line (regression line) showing the relationship between two clinical scores.
+2. Axes:
+X-axis: CARS scale (Childhood Autism Rating Scale score; numerical points, no units shown).
+Y-axis: BAMBI scale (Brief Autism Mealtime Behaviors Inventory score; numerical points, no units shown).
+3. Main trend:
+There is a slight upward trend, meaning higher CARS scores tend to be associated with higher BAMBI scores.
+4. Key values:
+Highest value: The highest BAMBI score is about 74, occurring at a CARS score of roughly 45.
+Lowest value: The lowest BAMBI score is about 28, occurring at a CARS score of roughly 20.
+5. Comparison:
+At a CARS score near 60, BAMBI scores vary widely—from about 34 to 72—showing large differences in mealtime behavior despite similar autism severity ratings.
+6. Takeaway:
+Overall, the chart suggests that children with higher autism severity scores (CARS around 40–60) often show moderate to high mealtime behavior challenges (BAMBI around 45–70). However, the wide spread—such as BAMBI scores ranging from about 34 to over 70 at similar CARS levels—indicates that mealtime difficulties do not increase uniformly with autism severity. This means clinicians should expect individual differences, and mealtime behavior challenges may need separate attention even among children with similar CARS scores.","1. Chart Type: Scatter plot with a linear regression (trend) line.
+2. Axes: X-axis: CARS scale (autism severity, 0–70); Y-axis: BAMBI scale (mealtime behavior problems, 0–80).
+3. Main Trend: As autism severity (CARS) increases, mealtime behavior problems (BAMBI) also tend to increase, indicating a moderate positive correlation.
+4. Key Values: Highest BAMBI value: approximately 74 (at CARS ~47). Lowest BAMBI value: approximately 28 (at CARS ~20).
+5. Comparison: A child scoring ~20 on CARS shows a BAMBI score of ~28, while a child scoring ~47 shows ~74 — nearly a 2.6× difference in mealtime difficulties despite a relatively modest rise in autism severity.
+6. Takeaway: Children with more severe autism (higher CARS scores) generally exhibit significantly more problematic mealtime behaviors (higher BAMBI scores). The trend line rising from roughly 37 to 56 across the CARS range confirms this relationship, though notable variability exists — some children with high CARS scores show low BAMBI scores, suggesting autism severity alone doesn't fully predict mealtime difficulties.",1,1,1,1,1,1,0,1,0,1,8,1,1,1,1,1,1,1,1,1,1,10,0,0,0,1,1,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0
+32,scatter,simple,"Scatter plots of (A) per capita publicly financed health expenditure, infant mortality rate across the Indian states using data for 2005–2016.","Figure 4 shows that states with higher PCPHE have witnessed lower IMR (the line slopes downward in “A”), a negative relationship between PCPHE and IMR in India.",viz32.jpg,"1. **Chart type:** Scatter plot with a fitted regression line showing the relationship between public health spending and infant mortality across Indian states.
+
+2. **Axes:** The x-axis shows per capita publicly financed health expenditure. The y-axis shows infant mortality rate (deaths per 1,000 live births).
+
+3. **Main trend:** States with higher public health expenditure generally tend to have lower infant mortality rates.
+
+4. **Key values:** The highest infant mortality rates are around 75 deaths per 1,000 live births in states with relatively low expenditure (under about 200 per capita). The lowest rates are below 10 deaths per 1,000 live births in some states with higher expenditure levels above 2,000 per capita.
+
+5. **Comparison:** The most meaningful difference is between low-spending states with mortality above 60 per 1,000 and high-spending states where mortality falls below 20 per 1,000, showing a substantial health gap linked to funding levels.
+
+6. **Takeaway:** The chart suggests a negative relationship between public health investment and infant mortality in Indian states between 2005 and 2016. Most states with low per capita public health expenditure cluster at higher mortality levels, often between 40 and 70 deaths per 1,000 live births. In contrast, states spending more than 1,500–2,000 per capita generally show much lower mortality rates, often below 30 and sometimes under 10. Although the points are widely spread, indicating other factors also influence outcomes, the downward-sloping fitted line supports the overall pattern that greater public health spending is associated with improved infant survival.","**1. Chart Type:** Scatter plot with a linear regression (fitted values) trend line.
+
+**2. Axes:** X-axis: Per capita public health expenditure (currency units, 0–2,600); Y-axis: Infant mortality rate (deaths per 1,000 live births, 0–80).
+
+**3. Main Trend:** As public health expenditure per capita increases, infant mortality rates decline consistently, indicating a clear negative relationship between spending and infant deaths.
+
+**4. Key Values:** Highest — infant mortality ~75–77 per 1,000 at very low expenditure (~100 units); Lowest — approximately 8–9 per 1,000 at the highest expenditure levels (~2,300–2,600 units).
+
+**5. Comparison:** States spending ~100 per capita record infant mortality up to ~75 per 1,000, versus ~8–10 per 1,000 at ~2,300 spending — a nearly eightfold difference in infant survival outcomes driven by investment level.
+
+**6. Takeaway:** Across Indian states between 2005–2016, this chart demonstrates a compelling inverse relationship between public health spending and infant mortality. At the lowest expenditure levels (~100 units), infant mortality clusters densely between 40–75 per 1,000 live births. As spending rises toward 2,000+ units, mortality falls markedly to single digits. The regression line confirms this downward trend is systematic rather than coincidental. However, considerable scatter — particularly at low expenditure levels — indicates that spending alone doesn't determine outcomes; governance quality, healthcare infrastructure, and social determinants also play significant roles. The data strongly supports the case for increased public health investment in lower-spending Indian states as a direct infant survival strategy.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,1,0,1,0,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2
+33,scatter,simple,Figure 5. Correlation between changes in BDI depression scores and PSI parenting stress scores,"A strong, statistically significant positive correlation was identified between the reduction indepressive symptoms (BDI) and the decrease in total parental stress (PSI) (r = 0.64, p<0.001)",viz33.jpg,"1. **Chart type:** Scatter plot with a fitted regression line showing the relationship between changes in depression scores and parenting stress scores.
+
+2. **Axes:** The x-axis shows “Change in PSI score” (Parenting Stress Index). The y-axis shows “Change in BDI score” (Beck Depression Inventory depression score). Negative values indicate reductions in stress or depression symptoms.
+
+3. **Main trend:** The chart shows a positive relationship, meaning larger reductions in parenting stress are generally associated with larger reductions in depression symptoms.
+
+4. **Key values:** The greatest reduction in PSI score is approximately −80, paired with a BDI change around −23. The largest reduction in BDI score is about −28, occurring with PSI changes near −55.
+
+5. **Comparison:** Participants with large decreases in parenting stress (around −50 to −60 PSI points) often showed much larger decreases in depression scores than those with little or no PSI improvement.
+
+6. **Takeaway:** The scatter plot suggests that improvements in parenting stress and depression tend to occur together. Most participants experienced reductions in both PSI and BDI scores, clustering between −60 and −10 on the PSI scale and between −28 and 0 on the BDI scale. The upward-sloping regression line indicates a moderate positive correlation: as parenting stress decreases, depression symptoms also tend to improve. However, the spread of points shows that the relationship is not perfect, meaning some individuals improved more in one area than the other.","**1. Chart Type:** Scatter plot with a linear regression trend line showing correlation between two continuous variables.
+
+**2. Axes:** X-axis: Change in PSI parenting stress score (-80 to +20); Y-axis: Change in BDI depression score (-30 to +10). Negative values on both axes indicate improvement.
+
+**3. Main Trend:** Participants who reduced their parenting stress more substantially also tended to show greater reductions in depression symptoms, demonstrating a consistent positive correlation.
+
+**4. Key Values:** Highest depression improvement — approximately -28 to -29 BDI points at around -50 PSI change; Lowest improvement — one outlier at +20 PSI change showing only ~-8 BDI improvement.
+
+**5. Comparison:** Participants achieving ~-60 PSI reduction improved depression by ~-13 to -16 BDI points, versus those near zero PSI change showing near-zero depression improvement — illustrating that greater stress relief predicts greater mood benefit.
+
+**6. Takeaway:** This chart reveals a meaningful positive correlation: as parenting stress decreases (leftward on X-axis), depression scores simultaneously improve (downward on Y-axis). Most data points cluster in the negative quadrant of both axes, confirming that the majority of participants improved on both measures concurrently. The regression line's upward slope confirms this relationship is systematic. Two notable outliers — one with dramatic depression improvement (~-29 BDI) and one with a stress increase (+20 PSI) — suggest individual variability exists. Clinically, this implies that psychosocial interventions targeting parenting stress reduction may deliver a dual benefit, simultaneously improving parental mental health, making them highly cost-effective therapeutic targets.",1,1,1,0,0,1,0,1,1,0,6,1,1,1,0,0,1,0,1,0,1,6,1,0,0,1,1,1,0,0,1,5,1,0,0,1,0,1,0,1,0,4
+34,scatter,simple,Figure 1. Correlation between sensory profile and repetitive behaviours.,"The correlation study between the SSP and RBS total scores was highly significant (Rho = −0.80 (p < 0.001)). A nonparametric regression analysis was also carried out (F(1,48) = 77.96 R2 = 0.611; p < 0.001), showing that more than 61% of the variability of RBS-TOT is explained by the variable SSP-TOT.  Legend: The scatter plot shows the linear correlation, with a low dispersion grade, between SSP total scores (SSP-TOT) and RBS-R total scores (RBS-TOT).",viz34.jpg,"1. **Chart type:** Scatter plot with a fitted regression line showing the relationship between sensory profile scores and repetitive behaviour scores.
+
+2. **Axes:** The x-axis shows “SSPTOT” (sensory profile total score), ranging from about 50 to 200. The y-axis shows “RBSTOT” (repetitive behaviour score), ranging from 0 to 80. No units are specified.
+
+3. **Main trend:** The chart shows a strong negative relationship, meaning higher sensory profile scores are associated with lower repetitive behaviour scores.
+
+4. **Key values:** The highest repetitive behaviour score is approximately 72 at an SSPTOT score near 70. The lowest repetitive behaviour score is around 2–5 at SSPTOT scores close to 180–185.
+
+5. **Comparison:** Individuals with low SSPTOT scores (around 70–100) generally had much higher repetitive behaviour scores, often above 60, compared with those scoring above 160 on SSPTOT, whose repetitive behaviour scores were mostly below 20.
+
+6. **Takeaway:** This figure suggests that better sensory profile performance is linked to fewer repetitive behaviours. Most participants cluster between SSPTOT scores of 130–170 and RBSTOT scores of 10–40. The downward-sloping regression line highlights a consistent inverse association across the dataset. For example, participants with SSPTOT scores near 180 had repetitive behaviour scores close to 5–15, while those with lower sensory scores near 70 showed repetitive behaviours above 70. Although individual variability exists, the overall pattern indicates that sensory functioning and repetitive behaviours are closely related.","**1. Chart Type:** Scatter plot with a linear regression trend line showing correlation between two continuous variables.
+
+**2. Axes:** X-axis: SSPTOT — Short Sensory Profile total score (50–200); Y-axis: RBSTOT — Repetitive Behaviour Scale total score (0–80). Higher SSP scores indicate better sensory processing; higher RBS scores indicate more repetitive behaviours.
+
+**3. Main Trend:** As sensory processing scores increase (improve), repetitive behaviour scores decrease consistently, revealing a clear negative correlation between the two measures.
+
+**4. Key Values:** Highest repetitive behaviours — approximately 75 RBSTOT at ~75 SSPTOT; Lowest — approximately 1–2 RBSTOT at ~185 SSPTOT.
+
+**5. Comparison:** Individuals with the lowest sensory scores (~75 SSP) show repetitive behaviours of ~75 RBS, versus those scoring ~175 SSP showing RBS scores of ~5–15 — a roughly fivefold difference in behavioural severity.
+
+**6. Takeaway:** This chart demonstrates a strong inverse relationship between sensory processing difficulties and repetitive behaviours — most likely in an autism spectrum population. Individuals with poorer sensory processing (lower SSPTOT scores, clustered left) exhibit substantially higher levels of repetitive behaviours (higher RBSTOT). As sensory processing improves rightward, repetitive behaviours decline markedly, as confirmed by the steeply descending regression line. This suggests that sensory processing difficulties and repetitive behaviours are closely linked phenomena, supporting the clinical hypothesis that repetitive behaviours may partly function as self-regulatory responses to sensory dysregulation. Therapeutically, this implies that sensory-focused interventions could simultaneously reduce repetitive behaviour frequency and severity.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,0,1,1,1,1,0,1,8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,3
+35,scatter,simple,"Figure 1. Correlation between Time 1 (toddler) and Time 2 (school age) cognitive scores with heat map. Warmer colors indicate higher correlations between Time 1 and Time 2 scores. IQ = Intellectual quotient. a N = 196 completed Differential Abilities Scales, Second Edition (DAS-II) at Time 2; for the N = 16 who completed the Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III) at Time 2, a developmental quotient was calculated as a proxy for Time 2 IQ score.","A significant positive correlation was found between Time 1 cognitive scores and Time 2 IQ, r (210) = 0.45, p < 0.001 (Figure 1). Of children with Time 1 cognitive scores < 70 (N = 34), 55.9% had Time 2 IQ < 70, and 11.8% had IQ > 100, with the rest in between these scores. Of children with Time 1 cognitive scores 86–100, the majority (83.2%) had Time 2 IQ > 85. Of children with Time 1 cognitive scores >100 (N = 9), all had Time 2 IQ > 85, and 8 had IQ >100.",viz35.jpg,"1. **Chart type:** Scatter plot with a regression line and heat map overlay showing the relationship between cognitive scores measured at two time points.
+
+2. **Axes:** The x-axis is “Time 1 Cognitive Score” (toddler cognitive score). The y-axis is “Time 2 IQ Score” (school-age cognitive/IQ score). Scores range approximately from 40–160 on the x-axis and 0–140 on the y-axis.
+
+3. **Main trend:** Children with higher cognitive scores in toddlerhood generally tended to have higher IQ scores at school age.
+
+4. **Key values:** The highest observed Time 2 IQ score is about 135, occurring at a Time 1 score near 75–95. The lowest Time 2 score is around 20, seen in children with Time 1 scores near 55–85.
+
+5. **Comparison:** Children with Time 1 scores above 90 mostly had Time 2 IQ scores around 95–120, whereas children with Time 1 scores below 70 showed much wider variability, including scores below 50.
+
+6. **Takeaway:** The figure demonstrates a moderate positive correlation between early cognitive ability and later school-age IQ (r = 0.44, p < 0.001; n = 212). The upward regression line indicates that better toddler cognitive performance is associated with higher later IQ scores. The warmest heat-map area, concentrated around Time 1 scores of 80–95 and Time 2 scores of 90–110, shows where most children clustered. However, the wide spread of points also suggests that early scores do not perfectly predict later outcomes, with some children improving or declining substantially over time.","**1. Chart Type:** Scatter plot with linear regression line and overlaid heat map showing data point density.
+
+**2. Axes:** X-axis: Time 1 cognitive score measured in toddlerhood (40–160); Y-axis: Time 2 IQ score measured at school age (0–140).
+
+**3. Main Trend:** Children with higher cognitive scores in toddlerhood consistently achieved higher IQ scores at school age, demonstrating a moderate but statistically significant positive correlation (r=0.44, p<0.001).
+
+**4. Key Values:** Highest — approximately 133 Time 2 IQ at ~100 Time 1 score; Lowest — approximately 20 Time 2 IQ at ~75 Time 1 score.
+
+**5. Comparison:** Children scoring ~140 at Time 1 achieved ~140 IQ at Time 2, versus those scoring ~55 at Time 1 reaching only ~40–60 at Time 2 — illustrating how early cognitive disadvantage persists into school age.
+
+**6. Takeaway:** Across 212 children, early toddler cognitive scores meaningfully predicted school-age IQ (r=0.44, p<0.001), confirming that cognitive trajectories established in early childhood show significant continuity. The heat map reveals the densest clustering between Time 1 scores of 75–100 and Time 2 IQ of 90–115, representing the majority of participants. However, considerable scatter — particularly at lower score ranges — indicates that early low scores don't deterministically predict poor outcomes, leaving meaningful room for developmental intervention. This underscores the clinical importance of early cognitive screening in toddlers, as identifying at-risk children early creates opportunities for targeted support before school entry.",1,1,1,1,1,1,1,1,1,1,10,1,1,1,0,0,1,0,0,0,1,5,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,4
+36,scatter,moderate,"Scatterplot of RMET proportion correct against estimated IQ by group. Note. C, control group; ASD, autism spectrum disorder group; SZ, schizophrenia group","In all participant groups IQ and RMET perform-ance were strongly and significantly correlated (ASD: r= 0.47, p<0.001; SZ: r= 0.53, p< 0.001; C: r= 0.48, p< 0.001, see Fig. 1).",viz36.jpg,". Chart type:
+This is a scatter plot with separate trend lines for three groups: Control (C), Autism Spectrum Disorder (ASD), and Schizophrenia (SZ).
+2. Axes:
+X-axis: Estimated IQ (standard IQ score points).
+Y-axis: RMET proportion correct (fraction correct, ranging from 0.00 to 1.00, representing percentage correct).
+3. Main trend:
+Across all groups, higher estimated IQ is linked with higher RMET scores, meaning better social understanding performance as IQ increases.
+4. Key values:
+Highest value: The highest RMET score is about 0.98 in the Control (C) group, at an IQ near 130–135.
+Lowest value: The lowest RMET score is about 0.12 in the SZ group, at an IQ around 80.
+5. Comparison:
+At similar IQ levels (around 100), the Control group generally scores higher (around 0.75–0.85) than the SZ group (around 0.60–0.70).
+6. Takeaway:
+This chart shows that IQ and social understanding ability (RMET performance) rise together in all groups, but group differences remain important. Even at similar IQ levels, the Control group consistently performs best, followed by ASD, with SZ generally scoring lowest. For example, around IQ 120, Control participants often score 0.80–0.90, while SZ participants are closer to 0.70–0.80. This suggests that social perception ability depends not only on IQ but also on clinical group differences, highlighting the need for tailored support strategies beyond cognitive ability alone.","1. Chart Type: Multi-group scatter plot with three linear regression (trend) lines.
+2. Axes: X-axis: Estimated IQ (numeric scale, ~35–145); Y-axis: RMET proportion correct (0.00–1.00), measuring ability to read emotions from eyes.
+3. Main Trend: Across all three groups, higher IQ is associated with better emotion-recognition performance, but controls consistently outperform both clinical groups at equivalent IQ levels.
+4. Key Values: Highest: one control participant scored ~0.97 (IQ ~140). Lowest: one schizophrenia participant scored ~0.10 (IQ ~80).
+5. Comparison: At IQ ~80, the control trend line sits near 0.60, while the schizophrenia trend line sits near 0.45 — a 15-percentage-point gap in emotion-recognition accuracy despite identical cognitive ability.
+6. Takeaway: Even when IQ is equal, people with ASD and schizophrenia recognize emotions from eyes less accurately than healthy controls. Controls' trend line starts highest (~0.40 at IQ 40), followed closely by ASD, with schizophrenia lowest (~0.28), suggesting schizophrenia carries the greatest social-cognition deficit independent of general intelligence.",1,1,1,1,1,1,0,0,0,0,6,1,1,1,1,1,1,0,0,0,0,6,1,0,0,1,0,0,0,1,1,4,1,1,0,1,0,0,0,1,1,5
+37,scatter,moderate,"Fig .2 Correlation between LDL cholesterol and BMI, stratified by gender",There was a lack of association of BMI to LDL and TC. BMI showed no significant association with LDL.,viz37.jpg,"1. Chart type:
+This is a scatter plot with trend lines, showing the relationship between BMI and LDL cholesterol, separated by gender (female, male) and overall population.
+2. Axes:
+X-axis: BMI (kg/m²) — Body Mass Index measured in kilograms per square meter.
+Y-axis: LDL cholesterol (mg/dL) — Low-density lipoprotein cholesterol measured in milligrams per deciliter.
+3. Main trend:
+There is a slight upward trend, meaning LDL cholesterol tends to increase modestly as BMI increases for both males and females.
+4. Key values:
+Highest value: The highest LDL cholesterol is about 260 mg/dL, seen in a female with a BMI around 45 kg/m².
+Lowest value: The lowest LDL cholesterol is about 20 mg/dL, seen in a female with a BMI around 30 kg/m².
+5. Comparison:
+At higher BMI levels (around 60–70 kg/m²), male LDL levels trend slightly higher than female levels, as shown by the steeper red line compared with the green line.
+6. Takeaway:
+This chart suggests that higher BMI is linked to slightly higher LDL cholesterol, but the relationship is weak and varies widely between individuals. Most people cluster between BMI 25–50 kg/m² and LDL 80–140 mg/dL, showing that many individuals with similar BMI values can have very different cholesterol levels. The male trend line rises slightly more than the female line, indicating BMI may have a somewhat stronger effect on LDL in males. Overall, BMI alone does not fully predict LDL cholesterol, so clinicians should consider other risk factors such as diet, genetics, and lifestyle.","1. Chart Type: Multi-group scatter plot with three linear regression (trend) lines by gender and total population.
+2. Axes: X-axis: BMI in kg/m²(0–100); Y-axis: LDL cholesterol in mg/dL (0–300).
+3. Main Trend: As BMI increases, LDL cholesterol rises very slightly in both sexes, but the overall relationship is remarkably weak across the entire population.
+4. Key Values: Highest: one female participant recorded ~255 mg/dL LDL (BMI ~40). Lowest: one female recorded ~15 mg/dL (BMI ~30).
+5. Comparison: Females (green line) start at ~115 mg/dL at low BMI and remain relatively flat, while males (red line) begin lower (~100 mg/dL) but rise more steeply, converging with and eventually surpassing females around BMI 50–60.
+6. Takeaway: Despite wide individual variation, BMI is a poor predictor of LDL cholesterol in this dataset. The near-flat trend lines for both females (~115→125 mg/dL) and males (~100→130 mg/dL) across a BMI range of 20–100 suggest that body weight alone does not meaningfully determine cholesterol levels, highlighting that other clinical factors must be considered when assessing cardiovascular risk.",1,1,1,1,0,1,0,0,0,0,5,1,1,1,0,0,1,0,1,0,1,6,1,0,0,1,1,1,0,1,1,6,1,0,0,1,1,1,0,1,0,5
+38,scatter,moderate,GNI per capita vs DALYs lost due to communicable and non-communicable diseases,"The chart shows that communicable diseases in particular are closely correlated to average income levels. The relationship that was estimated by Sterck et al. 20171 is shown in the legend. GNI per capita has a strong negative correlation with log DALYs lost due to communicable diseases, with an elasticity of -0.88. In other words, higher incomes are strongly correlated with fewer DALYs lost to communicable diseases.  On the other hand, the non-communicable disease burden is much less strongly associated with average income (the elasticity is estimated to be -0.13). So, higher incomes are also correlated with fewer DALYs lost to communicable diseases, but the change is much less strong.  Another conclusion we can draw from this chart is that the relationship between GNI per capita and DALYs lost due to the disease burden of communicable diseases is best captured by a log-log function.",viz38.jpg,"1. **Chart type:** Scatter plot with fitted trend lines comparing national income and disease burden across countries.
+
+2. **Axes:** The x-axis shows “GNI per capita in international $ (2012)” and the y-axis shows “Disability-Adjusted Life Years (DALYs) lost per 100,000 people (2012).” DALYs measure years lost because of illness or early death.
+
+3. **Main trend:** Countries with higher income generally lose fewer DALYs to communicable diseases, while non-communicable disease DALYs decline only slightly as income rises.
+
+4. **Key values:** The highest DALY burden is for communicable diseases in the Central African Republic at about 65,000 DALYs lost per 100,000 people. The lowest values are communicable disease DALYs in wealthy countries such as Norway and Switzerland, near 1,000 per 100,000.
+
+5. **Comparison:** Low-income countries experience dramatically higher communicable disease burdens than high-income countries; for example, the Central African Republic has over 60 times the communicable disease DALY burden of Norway.
+
+6. **Takeaway:** This chart highlights a strong relationship between national wealth and health outcomes. Poorer countries cluster on the left side of the graph with very high communicable disease burdens, often above 30,000–50,000 DALYs per 100,000 people. As GNI rises, communicable disease DALYs fall sharply, shown by the steep red fitted line (R² = 0.73). In contrast, non-communicable disease DALYs remain substantial even in wealthy countries, typically around 15,000–20,000 per 100,000 people, suggesting chronic illnesses remain a major challenge regardless of income level.","**1. Chart Type:** Dual-series scatter plot with two logarithmic regression fitted lines comparing communicable and non-communicable disease burdens.
+
+**2. Axes:** X-axis: GNI per capita in international dollars (0–$65,000, 2012); Y-axis: Disability-Adjusted Life Years (DALYs) lost per 100,000 population (0–65,000).
+
+**3. Main Trend:** Communicable disease burden falls sharply and dramatically as national income rises, while non-communicable disease burden remains relatively stable across all income levels.
+
+**4. Key Values:** Highest — Central African Republic at ~65,000 DALYs lost to communicable diseases at ~$500 GNI; Lowest — Norway and Switzerland with communicable DALYs near 0 at ~$60,000+ GNI.
+
+**5. Comparison:** The Central African Republic (~65,000 communicable DALYs) versus Norway (~500) represents a ~130-fold difference — entirely explained by the steep income gradient for infectious disease burden (R²=0.73).
+
+**6. Takeaway:** This chart reveals two fundamentally different relationships between national wealth and disease burden. Communicable diseases — infections, maternal conditions, malnutrition — are overwhelmingly concentrated in the poorest nations, with the red curve plummeting steeply as income rises (R²=0.73), confirming wealth as a powerful determinant of infectious disease survival. Non-communicable diseases — cancer, cardiovascular disease — show a much flatter relationship (R²=0.48), persisting stubbornly across all income levels, including wealthy nations like the US (~16,000 NCD DALYs) and Norway (~16,000). This dual pattern explains why global health equity requires two distinct strategies: poverty reduction and basic healthcare access for low-income nations, and lifestyle and chronic disease management for high-income ones.",1,1,1,1,1,1,0,1,1,0,8,1,1,1,1,0,0,0,0,0,1,5,0,0,0,1,1,0,0,0,1,3,1,0,1,1,0,1,0,1,0,5
+39,scatter,moderate,"Distribution of Structural Language and General Pragmatics composite scores across the study sample (N = 177), and their linear associations in the group with and without diagnosed autism spectrum disorder (ASD; n = 148 and non-ASD; n = 29)","As illustrated in Fig. 1, current structural and pragmatic language skills, as measured by the CCC-2, were highly correlated regardless of diagnostic group.",viz39.jpg,"1. **Chart type:** Scatter plot with separate linear trend lines comparing participants with autism spectrum disorder (ASD) and non-ASD participants.
+
+2. **Axes:** The x-axis shows “Structural Language Score,” while the y-axis shows “General Pragmatics Score.” Both scales range approximately from 0 to 50, with no units specified.
+
+3. **Main trend:** Higher structural language scores are associated with higher general pragmatics scores in both ASD and non-ASD groups.
+
+4. **Key values:** The highest observed General Pragmatics Score is about 50 in the non-ASD group at a Structural Language Score near 37. The lowest values are close to 0–2 in the ASD group at very low Structural Language Scores near 0–5.
+
+5. **Comparison:** Non-ASD participants generally achieved higher pragmatics scores at similar language levels; for example, around a Structural Language Score of 30, non-ASD scores clustered near 25–30, while many ASD scores were closer to 18–25.
+
+6. **Takeaway:** The figure shows a moderate positive relationship between language ability and pragmatic communication in both groups. The regression lines rise similarly (approximately y = 8.62 + 0.55x for non-ASD and y = 4.06 + 0.56x for ASD), meaning improvements in structural language are linked with better pragmatic skills regardless of diagnosis. However, the ASD group consistently scores lower overall, suggesting that even with similar language ability, pragmatic communication challenges remain more common in children with ASD. The ASD sample (n = 148) also shows wider variability than the smaller non-ASD group (n = 29).","**1. Chart Type:** Dual-series scatter plot with two separate linear regression lines comparing ASD and non-ASD groups.
+
+**2. Axes:** X-axis: Structural Language Score (0–50); Y-axis: General Pragmatics Score (0–50). Higher scores indicate greater language ability in both measures.
+
+**3. Main Trend:** In both groups, stronger structural language ability predicts better pragmatic communication, but non-ASD individuals consistently achieve higher pragmatics scores than ASD individuals at equivalent structural language levels.
+
+**4. Key Values:** Highest — one non-ASD individual reaching ~50 pragmatics at ~52 structural; Lowest — ASD individuals scoring ~0–1 pragmatics at near-zero structural language.
+
+**5. Comparison:** At a structural language score of ~20, non-ASD individuals score approximately 19 on pragmatics versus ~15 for ASD — and this gap widens progressively, reflecting the intercept difference (8.62 vs 4.06).
+
+**6. Takeaway:** Both groups show similarly sloped relationships between structural and pragmatic language (0.55 vs 0.56), meaning structural language improvement predicts pragmatic gains at almost identical rates. However, the critically important difference lies in the intercepts — non-ASD individuals start ~4.5 points higher in pragmatics at any given structural language level. This persistent gap suggests that ASD-specific pragmatic difficulties — understanding social context, turn-taking, and implied meaning — exist independently of structural language competence. Clinically, this means that building vocabulary and grammar alone is insufficient for ASD individuals; targeted pragmatic communication therapy remains essential regardless of structural language ability level.",1,1,1,1,1,1,0,1,1,0,8,1,1,1,0,1,0,0,0,0,0,4,0,0,0,1,1,0,0,0,1,3,1,0,1,1,0,1,0,1,1,6
+40,scatter,moderate,"Standardized mean severity score of each sample in three domains over time. The magnitude of the association between sample severity by publication year is greatest for the communication domain, but there was no statistically significant difference between the regression lines for each domain","Significant linear relationships were seen between publication year and both communication skills and IQ, such that the average communication skill level and IQ of ASD samples has increased with time since the early 1990s (β = 0.048, p < 0.001 and β = 0.033, p < 0.001 for time by communication and time by IQ associations, respectively). There was no association between publication year and average adaptive functioning level of ASD samples (β = 0.018, p = 0.192). The magnitude of association between publication year and average severity of the sample was strongest for communication skill severity; however, the association between time and the average severity of the sample was not moderated by the type of severity metric (β=-0.330, p = 0.126). Similarly, average sample age did not moderate associations between publication year and the average severity of the sample (Fig. 3).",viz40.jpg,"1. **Chart type:** Scatter plot with three regression trend lines comparing severity scores across publication years for communication, intelligence quotient (IQ), and adaptive functioning domains.
+
+2. **Axes:** The x-axis shows “Year of Publication” (approximately 1988–2016). The y-axis shows “Standardized Mean of Severity,” ranging from about –6 to +4. No units are specified.
+
+3. **Main trend:** Severity scores in all three domains generally become less negative over time, indicating a gradual reduction in average severity in published samples.
+
+4. **Key values:** The highest severity value is approximately +2.5 in the communication domain around 2012. The lowest value is about –5.8, seen in adaptive functioning around 2008–2010.
+
+5. **Comparison:** The communication domain shows the steepest upward trend over time, improving from roughly –4.8 in the late 1980s to around –1.0 by 2015, whereas adaptive functioning changes more gradually.
+
+6. **Takeaway:** This figure suggests that study samples published more recently tend to show lower overall severity across communication, IQ, and adaptive functioning domains. Although all regression lines slope upward, indicating improvement over time, the communication domain changes the most strongly. Most data points cluster between –4 and –1 severity scores during 2000–2012. Despite visible differences in slopes, the caption notes that these differences were not statistically significant, meaning the domains broadly followed similar long-term patterns. Overall, the chart implies that participant profiles in published studies may have become less severely impaired over the past two decades.","**1. Chart Type:** Multi-series scatter plot with three linear regression trend lines across time.
+
+**2. Axes:** X-axis: Year of publication (1988–2016); Y-axis: Standardised mean severity score (approximately -6.0 to +4.0), where more negative values indicate greater severity relative to a normative comparison group.
+
+**3. Main Trend:** Across all three domains, severity scores trend upward over time — meaning study samples appear less severely affected in more recently published research.
+
+**4. Key Values:** Highest severity — Communication at approximately -4.7 in 1988; Least severe — one IQ outlier approaching +2.5 around 2012.
+
+**5. Comparison:** Communication severity improved most steeply, rising from approximately -4.7 (1988) to around -1.5 (2015) — a ~3-point upward shift — compared to adaptive functioning's more modest improvement over the same period.
+
+**6. Takeaway:** This chart tracks how the severity profile of autism research samples has shifted over nearly three decades. All three domains — communication, IQ, and adaptive functioning — show upward trends, indicating that more recently studied samples are comparatively less severely affected than those studied in the late 1980s–1990s. This likely reflects diagnostic broadening — the expansion of autism criteria to include higher-functioning individuals — rather than a genuine improvement in the condition's severity. Communication shows the steepest trajectory, suggesting this domain is most sensitive to changing diagnostic practices. Importantly, the regression lines don't differ statistically, meaning no single domain is driving this pattern uniquely, pointing to a systemic shift in who receives an autism diagnosis over time.",1,1,1,0,1,1,0,1,1,0,7,1,1,1,0,0,1,0,0,0,0,4,0,1,0,1,0,1,0,0,1,4,1,0,0,1,1,1,0,1,1,6
+41,scatter,complex,"FIGURE 6 This figure compares the quantitative susceptibility withedwR2. For all regions, an increasing susceptibility corresponds withan increased edwR2 with an adjusted r-squared value of 0.643","The susceptibility data were significantly correlated with edwR2(Figure 6 and Table 6) and eR2* (Figure 7 and Table 7). Across allregions, the r-squared for susceptibility relative to edwR2 was 0.643and for susceptibility relative to eR2* was 0.578.",viz41.jpg,"1. **Chart type:** Scatter plot with a fitted regression line comparing quantitative susceptibility and edwR2 measurements across multiple brain regions.
+
+2. **Axes:** The x-axis is “Susceptibility (ppm)” ranging from about 0.00 to 0.13 parts per million. The y-axis is “edwR2 (a.u.)” (arbitrary units), ranging from approximately 0.75 to 1.80.
+
+3. **Main trend:** Higher magnetic susceptibility values are consistently associated with higher edwR2 values across all brain regions.
+
+4. **Key values:** The highest edwR2 value is approximately 1.8 at susceptibility levels around 0.12–0.13 ppm. The lowest edwR2 values are about 0.8–0.85 at susceptibility levels close to 0.00–0.02 ppm.
+
+5. **Comparison:** Brain regions with low susceptibility measurements near 0.01 ppm generally cluster around edwR2 values below 1.0, whereas regions above 0.10 ppm commonly show edwR2 values between 1.4 and 1.7.
+
+6. **Takeaway:** This figure demonstrates a strong positive relationship between quantitative susceptibility and edwR2 across several deep brain structures, including the dentate nucleus, pallidum, putamen, red nucleus, and substantia nigra. The upward-sloping regression line and adjusted R² value of 0.643 indicate that susceptibility explains a substantial proportion of the variation in edwR2. Most data points cluster in the middle range, with susceptibility values between 0.03 and 0.10 ppm corresponding to edwR2 values around 1.1–1.5. Overall, the chart suggests that as tissue susceptibility increases, edwR2 measurements also rise in a consistent and measurable way.","**1. Chart Type:** Multi-series scatter plot with a single linear regression trend line and confidence interval band.
+
+**2. Axes:** X-axis: Magnetic susceptibility measured in parts per million (ppm, approximately -0.05 to +0.15); Y-axis: edwR2 — an MRI relaxation rate measure in arbitrary units (0.75–1.80 a.u.).
+
+**3. Main Trend:** Across all ten deep brain regions, higher magnetic susceptibility values consistently correspond with higher edwR2 values, indicating a strong positive correlation (adjusted R²=0.643).
+
+**4. Key Values:** Highest — Right Pallidum and Left Substantia Nigra reaching ~1.80 a.u. at susceptibility ~0.13–0.15 ppm; Lowest — Left/Right Putamen clustered near 0.80–0.85 a.u. at susceptibility ~-0.02 ppm.
+
+**5. Comparison:** The Putamen regions (low susceptibility ~0.00, low edwR2 ~0.85–0.95) versus Pallidum/Substantia Nigra (high susceptibility ~0.12, edwR2 ~1.75) demonstrate the widest separation, reflecting fundamentally different iron deposition characteristics between brain structures.
+
+**6. Takeaway:** This chart validates a strong relationship between two complementary MRI-based measures of brain iron content across ten deep brain regions (R²=0.643). Iron-rich structures — particularly the Substantia Nigra, Red Nucleus, and Pallidum — cluster in the upper right, exhibiting both high susceptibility and high edwR2, while iron-poor regions like the Putamen and Dentate Nucleus anchor the lower left. This cross-regional consistency confirms that both measures are reliably capturing the same underlying biological phenomenon — iron accumulation — which is clinically significant given iron's role in neurodegenerative conditions such as Parkinson's disease, where Substantia Nigra iron deposition is a key pathological feature.",1,1,1,1,1,1,0,1,1,1,9,1,1,1,0,0,1,1,1,0,1,7,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,1,1,0,4
+42,scatter,complex,"Percentage thresholds of motion coherence against age of the control individuals and autism family members. CTL = control individuals, ASD = autism spectrum disorder. Total Signal Dots were 1081. The red straight line presents the group mean, 95% confidence interval in dark red band and 95% prediction interval in light red band.",Figure 1 illustrates the negatively exponential shaped skewed distribution to form a 95% confidence in: Percentage thresholds of motion coherence against age of the control individuals and autism family memberterval of 10.5% and 12.7% within a range of 2.2–41.0% thresholds and mean absolute deviation of 5.8%.,viz42.jpg,"1. Chart type:
+This is a multi-group scatter plot with a fitted mean curve and confidence bands, showing motion coherence thresholds across age for control individuals and autism-related family groups.
+2. Axes:
+X-axis: Age (Year) — measured in years, ranging from about 5 to 65 years.
+Y-axis: % Motion Coherence Threshold — percentage required to detect motion, ranging from 0% to 100%.
+3. Main trend:
+In control individuals, motion coherence thresholds decrease in childhood and then slowly increase again with age.
+4. Key values:
+Highest value: The highest motion coherence threshold is about 85%, observed in an ASD sibling around age 12–15 years.
+Lowest value: The lowest value is about 2–3%, seen in control individuals around age 20–30 years.
+5. Comparison:
+Many ASD individuals and family members exceed the abnormal threshold of 25%, while most control individuals remain below 25%, especially between ages 10 and 40 years.
+6. Takeaway:
+This chart shows that motion perception ability improves during childhood (thresholds drop to about 5–10% by ages 15–25) and then slightly worsens with aging in the control group. However, ASD individuals and some relatives frequently show higher thresholds, with several points above the 25% abnormal cutoff, especially in childhood and adolescence. For example, around ages 10–15, some ASD-related participants show thresholds above 60–80%, compared with mostly 5–15% in controls. This suggests that motion processing differences are more common in autism and may also appear in family members, supporting a possible inherited component.","1. Chart Type: Multi-group scatter plot with an exponential regression curve, confidence/prediction bands, and a horizontal clinical threshold line.
+2. Axes: X-axis: Age (years). Y-axis: % Motion Coherence Threshold (percentage points, 0–100%).
+3. Main Trend: Controls improve rapidly in motion perception during childhood then stabilize, while ASD individuals and their family members consistently score above the 25% abnormal threshold across all ages.
+4. Key Values: Highest: one ASD sibling recorded ~85% threshold (age ~15). Lowest: multiple control participants recorded near 0% threshold (ages ~10–50).
+5. Comparison: At age ~10, ASD children cluster heavily between 30–80%, while age-matched controls mostly fall below 25% — demonstrating a striking gap in visual motion processing during a critical developmental window.
+6. Takeaway: The blue 25% abnormality threshold clearly separates controls from ASD-related groups. Controls rapidly drop below 25% by age 10 and remain there, whereas ASD individuals, siblings, and parents frequently exceed this threshold, suggesting motion coherence deficits may be a heritable family-wide trait rather than exclusive to diagnosed individuals.",1,1,1,1,1,1,0,1,0,0,7,1,1,1,1,1,0,0,0,0,0,5,1,0,1,1,0,0,0,1,1,5,1,0,1,1,1,0,0,1,1,6
+43,scatter,complex,Figure 4. Relationship between (A) SDI and percentage vaccination coverage  in 2019.,"When evaluating the relationship between the measles cases, SDI and MCV, we found a significant positive linear correlation between the rate of coverage of the first dose of MCV1 and SDI (r=0.47, p < 0.0001) (Figure 3A). However, this relationship varied slightly among the SDI group. For example, a statistically moderate positive correlation was observed in the Low-middle SDI group (r = 0.32, p = 0.046). No significant correlations between MCV1 and SDI were found in the Middle SDI, High-middle SDI, and High SDI countries. There was only a moderate correlation between MCV1 coverage and SDI values in low SDI countries (r=0.31, p = 0.075). The number of measles cases had a non-significantly negative linear correlation with the SDI (r=-0.12, p = 0.096) (Figure 3A).",viz43.jpg,"""1. Chart type:
+This is a bubble scatter plot with trend lines, showing vaccination coverage by country, grouped by Socio-Demographic Index (SDI) level, with bubble size representing population.
+2. Axes:
+X-axis: SDI (Socio-Demographic Index) — a scale from about 0.1 to 0.9 indicating level of development.
+Y-axis: Vaccine coverage (%) — percentage of the population vaccinated, ranging from about 30% to 100%.
+3. Main trend:
+Countries with higher SDI generally have higher vaccination coverage, with coverage approaching 95–100% at higher SDI levels.
+4. Key values:
+Highest value: The highest vaccination coverage is about 100%, seen in high-SDI countries with SDI values around 0.75–0.90.
+Lowest value: The lowest vaccination coverage is about 33%, seen in a high-middle SDI country with an SDI near 0.75.
+5. Comparison:
+Low-SDI countries typically show much lower and more variable coverage (around 40–85%) compared with high-SDI countries, which cluster tightly around 90–100%.
+6. Takeaway:
+This chart demonstrates a strong link between development level and vaccination success. Low-SDI countries (SDI ~0.2–0.4) often show coverage between 40% and 80%, with several large-population countries below 70%, indicating potential risk for outbreaks. In contrast, high-SDI countries (SDI ~0.8–0.9) consistently achieve 90–100% coverage, suggesting stronger healthcare systems and vaccine access. The largest population bubbles in middle-SDI groups highlight that millions of people live in countries where coverage ranges from 70–95%, meaning improvements in these regions could have a major global health impact.""","""1. Chart Type: Bubble scatter plot with five color-coded regression lines by SDI group, where bubble size encodes national population size.
+2. Axes: X-axis: SDI (Socio-Demographic Index, 0–1 scale). Y-axis: Vaccine coverage (%, 0–100%).
+3. Main Trend: Higher SDI is generally associated with higher vaccine coverage, though this relationship plateaus near 100% for middle and high SDI countries.
+4. Key Values: Highest: several high and high-middle SDI countries achieved ~100% vaccine coverage. Lowest: one low SDI country recorded ~37% coverage at SDI ~0.45.
+5. Comparison: Low SDI countries (pink) show the widest spread, ranging from ~37% to ~95% coverage, while high SDI countries (magenta) cluster tightly near 90–100% — illustrating that development level dramatically reduces vaccine coverage inequality within groups.
+6. Takeaway: Wealthier, more developed nations reliably achieve near-universal vaccination, while low SDI countries show alarming variability — some performing surprisingly well (~95%) while others fall below 50%. Notably, the largest-population bubbles (representing hundreds of millions) appear in the middle SDI range, meaning coverage gaps there affect the greatest absolute number of people, making middle SDI nations a critical priority for global immunization efforts.""",1,1,1,0,1,1,0,0,0,0,5,1,1,1,0,0,1,0,1,0,0,5,1,0,0,1,1,1,0,1,1,6,1,0,0,1,1,1,0,1,1,6
+44,scatter,complex,"Figure 5 Observed relationship between proportion of false-negative rapid diagnostic test (FN-RDT) results and malaria prevalence. The weighted proportion of FN-RDT results at the first administrative region is shown on the y-axis and the weighted malaria prevalence by microscopy on the x-axis. The sample size for each region is indicated by the point size, and the generalised linear model (GLM) relationships with a binomial error structure are displayed as red curves. The relationship is further stratified by residence type, with the relationship within rural and urban areas shown with a solid and dashed line, respectively. The blue curve depicts the expected proportion of FN-RDT results based on WHO product testing results.","The impact of malaria prevalence and urban residence was further investigated by comparing the relationship between the percentage of FN-RDT results and malaria prevalence to the expected percentage of FN-RDT based on product testing results (figure 5). The proportion of FN-RDT results increased both at lower malaria prevalence and in urban areas, a finding not explained by expected differences in RDT performance based on product testing. Additionally, the rate of increase in the proportion of FN-RDT results as malaria prevalence decreased was greater in urban areas, reflecting the significant interaction identified between malaria prevalence and urbanicity.",viz44.jpg,"1. **Chart type:** Bubble scatter plot with fitted trend lines (generalised linear model curves) comparing malaria prevalence and false-negative rapid diagnostic test (FN-RDT) results in rural and urban regions.
+
+2. **Axes:** The x-axis shows “Administrative Region Microscopy Prevalence” (proportion of malaria detected by microscopy), while the y-axis shows “Administrative Region False-Negative RDT Proportion” (proportion of malaria cases missed by rapid tests). Bubble size represents regional sample size.
+
+3. **Main trend:** As malaria prevalence increases, the proportion of false-negative RDT results generally decreases, especially in urban areas.
+
+4. **Key values:** The highest FN-RDT proportion reaches approximately 1.0 (100%) in some low-prevalence regions with microscopy prevalence below 0.2. The lowest values are near 0.0, seen across several regions at varying prevalence levels.
+
+5. **Comparison:** Urban regions show a much steeper decline in FN-RDT rates than rural regions; urban areas fall from about 50% false negatives at low prevalence to around 15% at higher prevalence, whereas rural areas remain closer to 15–20% throughout.
+
+6. **Takeaway:** This chart suggests that malaria rapid diagnostic tests perform differently depending on malaria prevalence and residence type. Urban regions show highly variable false-negative rates when prevalence is low, but accuracy improves as prevalence rises. Rural regions display more stable FN-RDT proportions, generally between 10% and 20%. The blue WHO reference curve stays near 5%, meaning many observed regions perform worse than expected under standard testing conditions. Large bubbles clustered around moderate prevalence indicate that the findings are supported by sizeable regional samples.","**1. Chart Type:** Bubble scatter plot with three regression lines (rural, urban, and WHO benchmark), where bubble size represents sample size.
+
+**2. Axes:** X-axis: Administrative region malaria prevalence by microscopy (0–0.8); Y-axis: Proportion of false-negative rapid diagnostic test (RDT) results (0–1.0).
+
+**3. Main Trend:** False-negative RDT rates decrease as malaria prevalence increases, with urban areas showing substantially higher false-negative rates than rural areas at low prevalence levels.
+
+**4. Key Values:** Highest — urban regions at low prevalence (~0.02) recording false-negative proportions approaching 1.0; Lowest — both rural and urban regions approaching ~0.10–0.15 at high prevalence (~0.7–0.8).
+
+**5. Comparison:** At low prevalence (~0.05), urban areas show false-negative rates of ~0.40–0.50 versus rural areas at ~0.20 — more than double — representing a critical diagnostic accuracy gap where misdiagnosis risk is highest.
+
+**6. Takeaway:** This chart reveals a concerning paradox: malaria rapid diagnostic tests produce the most false-negative results precisely where prevalence is lowest — the situations where accurate diagnosis matters most for individual patient care. Urban areas are particularly affected, with false-negative proportions far exceeding both rural areas and the WHO-expected benchmark (blue line, ~0.07) at low prevalence levels. As prevalence rises above 0.4, false-negative rates converge toward the WHO benchmark across both settings. This pattern suggests RDTs perform adequately in high-transmission rural settings but significantly underperform in low-transmission urban contexts, potentially leading to missed diagnoses, delayed treatment, and inappropriate antibiotic use — with major implications for malaria elimination strategies.",1,1,1,1,1,1,0,1,1,1,9,1,1,1,0,0,1,0,0,0,1,5,1,0,0,1,0,0,0,0,0,2,1,1,0,1,0,1,0,1,0,5
+45,scatter,complex,Figure 1 Patterns of temperature-related mortality in 1368 European regions (1991–2020),"The median standardised cold and heat death rates per 100 000 people for all the 1368 NUTS 3 regions considered in the analysis (1991–2020) are shown in figure 1. Substantial spatial heterogeneity in cold-related mortality was observed across and within European countries, with rates ranging from 25 in a region in the Netherlands to 300 deaths in a region in Bulgaria per 100 000 people (appendix p 12). The lowest number of cold-related deaths were observed in regions of central Europe and some parts of southern Europe.",viz45.jpg,"1. **Chart type:** Multi-group scatter plot with regional trend lines showing the relationship between cold-related and heat-related mortality across European regions.
+
+2. **Axes:** The x-axis shows “Cold-related deaths (per 100,000 people)” and the y-axis shows “Heat-related deaths (per 100,000 people).” Points are grouped by European region: South, East, West, and North.
+
+3. **Main trend:** Regions with higher cold-related mortality also tend to have higher heat-related mortality, although the strength of this relationship differs by region.
+
+4. **Key values:** The highest observed heat-related mortality is approximately 46 deaths per 100,000 people in Southern Europe, paired with cold-related mortality around 180–190 per 100,000. The lowest values occur in Northern Europe, where heat-related mortality is near 1 death per 100,000 and cold-related mortality is roughly 60–80 per 100,000.
+
+5. **Comparison:** Southern regions experience much higher heat-related mortality than Northern regions, even at similar levels of cold-related deaths.
+
+6. **Takeaway:** This chart highlights strong regional differences in temperature-related mortality across 1,368 European regions between 1991 and 2020. Southern Europe shows the steepest relationship, with heat-related deaths often exceeding 30–40 per 100,000 when cold-related mortality is above 150 per 100,000. Eastern Europe also shows relatively high mortality from both cold and heat. In contrast, Northern Europe has the lowest heat-related mortality, mostly below 10 per 100,000 despite moderate cold-related mortality. Western Europe clusters in the middle range. Overall, the findings suggest that climate, population vulnerability, and regional adaptation patterns strongly influence temperature-related deaths.","**1. Chart Type:** Multi-series scatter plot with four separate linear regression trend lines representing European geographic regions.
+
+**2. Axes:** X-axis: Cold-related deaths per 100,000 people (0–310); Y-axis: Heat-related deaths per 100,000 people (0–50).
+
+**3. Main Trend:** Southern regions suffer disproportionately high heat-related deaths despite lower cold mortality, while Northern regions show the opposite pattern — high cold deaths but minimal heat mortality.
+
+**4. Key Values:** Highest heat deaths — Southern regions reaching ~47 per 100,000; Lowest heat deaths — Northern regions at approximately 0–2 per 100,000 despite cold deaths exceeding 200–300 per 100,000.
+
+**5. Comparison:** At equivalent cold-death levels (~100 per 100,000), Southern regions record ~20–25 heat deaths versus Northern regions recording only ~2–3 — roughly a tenfold difference in heat vulnerability.
+
+**6. Takeaway:** Across 1,368 European regions (1991–2020), temperature-related mortality divides starkly by geography. Southern European regions cluster with high heat mortality (~15–47 per 100,000) but relatively lower cold deaths (~50–150), reflecting populations physiologically and infrastructurally unequipped for extreme heat. Northern regions experience substantial cold mortality (~150–300 per 100,000) but near-negligible heat deaths, having adapted to cold climates. Eastern regions occupy an intermediate position with rising heat vulnerability alongside high cold burden. Western regions show low mortality on both measures. This regional patterning has critical public health implications — as climate change intensifies heat extremes, Southern and Eastern European populations face compounding risks, urgently requiring heat adaptation strategies including early warning systems, urban cooling infrastructure, and targeted protection for vulnerable groups.",1,1,1,0,0,0,0,1,0,0,4,1,1,1,1,0,1,0,1,0,0,6,1,0,1,1,1,1,0,1,1,7,1,0,0,1,0,1,0,1,1,5
